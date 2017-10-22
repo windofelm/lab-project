@@ -27,3 +27,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::group(['prefix' => 'dashboard'], function () {
+    Route::get('/', 'PanelController@index')->name('dashboard');
+    Route::get('/articles', 'PanelController@articles')->name('articles');
+    Route::get('/articles/add', 'PanelController@store')->name('article-store');
+    Route::post('/articles/add', 'PanelController@store');
+});
+
