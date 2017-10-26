@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<title>CEVİZLAB TEKNOLOJİ</title>
+<title>Cevizlab Teknoloji</title>
 <script async="" src="{{ asset('assets/js/analytics.js') }}"></script><script type="application/javascript">var qodeCoreAjaxUrl = "http://startit.select-themes.com/wp-admin/admin-ajax.php"</script><meta name="robots" content="noindex,follow">
 <link rel="alternate" type="application/rss+xml" title="Startit » Feed" href="http://startit.select-themes.com/feed/">
 <link rel="alternate" type="application/rss+xml" title="Startit » Comments Feed" href="http://startit.select-themes.com/comments/feed/">
@@ -26,6 +26,11 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+	<style>
+		h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a, p a, .qodef-main-menu ul li ul li:hover a, .qodef-main-menu ul li ul li.qodef-active-item a, .qodef-drop-down .second .inner ul li.sub ul li:hover > a, .qodef-drop-down .second .inner ul li:hover > a, .qodef-drop-down .wide .second .inner > ul > li > a:hover, .qodef-drop-down .wide .second .inner ul li.sub .flexslider ul li a:hover, .qodef-drop-down .wide .second ul li .flexslider ul li a:hover, .qodef-drop-down .wide .second .inner ul li.sub .flexslider.widget_flexslider .menu_recent_post_text a:hover, .qodef-mobile-header .qodef-mobile-nav a:hover, .qodef-mobile-header .qodef-mobile-nav h4:hover, .qodef-mobile-header .qodef-mobile-menu-opener a:hover, .qodef-side-menu-button-opener:hover, nav.qodef-fullscreen-menu ul li a:hover, nav.qodef-fullscreen-menu ul li ul li a, .qodef-search-slide-header-bottom .qodef-search-submit:hover, .qodef-search-cover .qodef-search-close a:hover, .qodef-message .qodef-message-inner a.qodef-close i:hover, .qodef-ordered-list ol > li:before, .qodef-icon-list-item .qodef-icon-list-icon-holder .qodef-icon-list-icon-holder-inner i, .qodef-icon-list-item .qodef-icon-list-icon-holder .qodef-icon-list-icon-holder-inner .font_elegant, .qodef-tabs .qodef-tabs-nav li a, .qodef-btn.qodef-btn-outline, .post-password-form input[type='submit']:hover, .qodef-accordion-holder .qodef-title-holder.ui-state-active, .qodef-accordion-holder .qodef-title-holder.ui-state-hover, .qodef-icon-list-item .qodef-icon-list-icon-holder-inner i, .qodef-icon-list-item .qodef-icon-list-icon-holder-inner .font_elegant, .qodef-ordered-list ol>li:before, .qodef-portfolio-filter-holder .qodef-portfolio-filter-holder-inner ul li.active span, .qodef-portfolio-filter-holder .qodef-portfolio-filter-holder-inner ul li.current span, .qodef-portfolio-list-holder.qodef-ptf-standard article .qodef-item-icons-holder a:hover, .qodef-portfolio-slider-holder .qodef-portfolio-list-holder.owl-carousel .owl-buttons .qodef-prev-icon i, .qodef-portfolio-slider-holder .qodef-portfolio-list-holder.owl-carousel .owl-buttons .qodef-next-icon i, .qodef-search-opener:hover, .qodef-side-menu a.qodef-close-side-menu:hover span, .qodef-underline-icon-box-holder.qodef-underline-animation:hover .qodef-underline-icon-box-icon-holder .qodef-icon-shortcode .qodef-icon-element, .qodef-pie-chart-with-icon-holder .qodef-percentage-with-icon i, .qodef-pie-chart-with-icon-holder .qodef-percentage-with-icon span, .qodef-blog-list-holder .qodef-item-info-section, .qodef-blog-holder article .qodef-post-info a:hover, .qodef-comment-holder .qodef-comment-text .qodef-comment-date, .qodef-sidebar .widget a:hover, .qodef-side-menu .widget a:hover, footer a:hover, .post-password-form input[type='submit']:hover, .qodef-sidebar #searchform input[type='submit']:hover, .qodef-side-menu #searchform input[type='submit']:hover, footer input[type='submit']:hover, .qodef-author-description .qodef-author-description-text-holder .qodef-author-social-inner a:hover, .qodef-portfolio-single-holder .qodef-portfolio-info-holder h6, .qodef-portfolio-single-holder .qodef-portfolio-single-nav .qodef-portfolio-back-btn span:hover, .qodef-portfolio-single-holder .qodef-portfolio-single-nav .qodef-portfolio-next a:hover span, .qodef-portfolio-single-holder .qodef-portfolio-single-nav .qodef-portfolio-prev a:hover span, .qodef-portfolio-list-holder-outer.qodef-ptf-gallery article .qodef-item-text-holder .qodef-ptf-category-holder, .qodef-portfolio-filter-holder .qodef-portfolio-filter-holder-inner ul li span:hover, .star-rating, .qodef-woocommerce-page .select2-results .select2-highlighted, .qodef-woocommerce-page .select2-container .select2-choice .select2-arrow b:after, .qodef_twitter_widget li .tweet_icon_holder .social_twitter, .qodef-single-product-summary .qodef-woocommerce-share-holder .qodef-social-share-holder a:hover, .qodef-counter-holder .qodef-counter-title, .qodef-shopping-cart-outer .qodef-shopping-cart-header .qodef-header-cart:hover i, .qodef-woocommerce-page .qodef-cart-totals .order-total, .qodef-woocommerce-page .woocommerce-checkout-review-order-table .order-total, .qodef-process-holder .qodef-process-item:hover .qodef-process-item-title-holder > *, .qodef-blog-holder article.sticky .qodef-post-title a, .qodef-blog-list-holder .qodef-item-info-section > div a, .qodef-blog-list-holder .qodef-item-info-section > div:before, .qodef-blog-list-holder .qodef-item-info-section span, .qodef-sidebar .widget.widget_recent_comments a, .qodef-side-menu .widget.widget_recent_comments a, .qodef-shopping-cart-dropdown .qodef-item-info-holder .qodef-item-left a:hover, .qodef-shopping-cart-dropdown .qodef-cart-bottom .qodef-subtotal-holder .qodef-total-amount, .qodef-blog-holder.qodef-blog-type-masonry .qodef-btn, .qodef-blog-holder.qodef-masonry-full-width .qodef-btn, .countdown-period, .qodef-portfolio-list-holder-outer.qodef-ptf-gallery article .qodef-item-text-holder .qodef-item-title>a, .qodef-portfolio-list-holder-outer.qodef-ptf-gallery article .qodef-item-text-holder .qodef-ptf-category-holder span, .qodef-portfolio-list-holder-outer.qodef-ptf-standard article .qodef-item-text-holder .qodef-ptf-category-holder span, .qodef-menu-area .qodef-featured-icon, .qodef-sticky-nav .qodef-featured-icon, .qodef-portfolio-list-holder-outer.qodef-ptf-standard article .qodef-item-text-holder .qodef-ptf-category-holder span, .qodef-portfolio-list-holder-outer.qodef-ptf-gallery article .qodef-item-text-holder .qodef-ptf-category-holder span, .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a, .woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover, .qodef-mobile-showcase .qodef-mobile-wrapper .qodef-screens > .qodef-screen:hover .qodef-label, .qodef-pricing-info .qodef-pricing-info-pricing .qodef-value, .qodef-pricing-info .qodef-pricing-info-pricing .qodef-price, .qodef-service-table table tbody td .qodef-mark.qodef-checked, .qodef-header-vertical .qodef-vertical-menu > ul > li > a .qodef-featured-icon, .qodef-header-vertical .qodef-vertical-menu .second .inner .qodef-featured-icon, .qodef-header-vertical .qodef-vertical-menu ul li a:hover, .qodef-header-vertical .qodef-vertical-dropdown-float .second .inner ul li a:hover, .landing-new-custom .qodef-portfolio-filter-holder .qodef-portfolio-filter-holder-inner ul li span:hover, .qodef-testimonials.cards_carousel.dark .qodef-testimonials-job, .qodef-header-vertical .qodef-vertical-menu .second .inner ul li ul li a:hover, .qodef-header-vertical .qodef-vertical-menu .second .inner ul li ul li a.qodef-active-item {
+			color: #1abac8;
+		}
+	</style>
 <link rel="stylesheet" id="layerslider-css" href="{{ asset('assets/css/layerslider.css') }}" media="all">
 <link rel="stylesheet" id="ls-google-fonts-css" href="{{ asset('assets/css/css') }}" type="text/css" media="all">
 <link rel="stylesheet" id="contact-form-7-css" href="{{ asset('assets/css/styles.css') }}" type="text/css" media="all">
@@ -51,19 +56,8 @@ img.emoji {
 <link rel="stylesheet" id="qode_startit_toolbar-css" href="{{ asset('assets/css/toolbar.css') }}" type="text/css" media="all">
 <link rel="stylesheet" id="js_composer_front-css" href="{{ asset('assets/css/js_composer.min.css') }}" type="text/css" media="all">
 <link rel="stylesheet" id="qode_startit_google_fonts-css" href="{{ asset('assets/css/css(1).css') }}" type="text/css" media="all">
-<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5.2 - Universal enabled - https://www.monsterinsights.com/ -->
-<script type="text/javascript">
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
 
-	__gaTracker('create', 'UA-69655152-1', 'auto');
-	__gaTracker('set', 'forceSSL', true);
-	__gaTracker('send','pageview');
 
-</script>
-<!-- / Google Analytics by MonsterInsights -->
 <script type="text/javascript" src="{{ asset('assets/js/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/js/jquery-migrate.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/js/scrolltoplugin.min.js') }}"></script>
@@ -383,7 +377,7 @@ Populate the sidearea with useful widgets. It’s simple to add images, categori
                         
 <div class="qodef-logo-wrapper">
     <a href="http://startit.select-themes.com/" style="height: 90px;">
-        <img class="qodef-normal-logo" src="{{ asset('assets/img/logo.png') }}" alt="logo">
+        <img class="qodef-normal-logo" style="margin-top: 15px;width: 186px;height: 77px;" src="{{ asset('assets/img/logo.png') }}" alt="logo">
         <img class="qodef-dark-logo" src="{{ asset('assets/img/logo.png') }}" alt="dark logo">        <img class="qodef-light-logo" src="{{ asset('assets/img/logo.png') }}" alt="light logo">    </a>
 </div>
 
