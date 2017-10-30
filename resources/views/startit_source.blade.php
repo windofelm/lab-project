@@ -351,7 +351,7 @@
     <div id="text-15" class="widget qodef-sidearea widget_text">
         <div class="textwidget"><a href="http://startit.select-themes.com/">
 
-                <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/logo-sidearea.png" alt="logo">
+                <img src="startit-source/logo.png" alt="logo">
 
             </a>
 
