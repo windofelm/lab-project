@@ -4727,7 +4727,7 @@
 
                                                 <a href="http://startit.select-themes.com/">
 
-                                                    <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/logo-footer.png"
+                                                    <img src="startit-source/logo.png"
                                                          alt="logo">
 
                                                 </a>
