@@ -23,6 +23,10 @@ Route::get('/fooo', function () {
     return view('fooo');
 });
 
+Route::get('/startit-last', function () {
+    return view('startit_source');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
