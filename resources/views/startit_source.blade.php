@@ -432,14 +432,14 @@
                         <div class="qodef-position-left-inner">
 
                             <div class="qodef-logo-wrapper">
-                                <a href="http://startit.select-themes.com/" style="height: 90px;">
+                                <a href="http://startit.select-themes.com/">
                                     <img class="qodef-normal-logo"
-                                         src="http://startit.select-themes.com/wp-content/themes/startit/assets/img/logo.png"
+                                         src="startit-source/logo.png"
                                          alt="logo"/>
                                     <img class="qodef-dark-logo"
-                                         src="http://startit.select-themes.com/wp-content/themes/startit/assets/img/logo.png"
+                                         src="startit-source/logo.png"
                                          alt="dark logo"/> <img class="qodef-light-logo"
-                                                                src="http://startit.select-themes.com/wp-content/uploads/2015/11/logo-light.png"
+                                                                src="startit-source/logo.png"
                                                                 alt="light logo"/> </a>
                             </div>
 
