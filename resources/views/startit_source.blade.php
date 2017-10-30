@@ -181,7 +181,7 @@
             width: 60px;
             height: 60px;
             display: block;
-            background: #b2dd4c;
+            background: #1abac8;
             border-radius: 100%;
             text-align: center;
             line-height: 60px;
@@ -293,7 +293,7 @@
         }
 
         .landing-new-custom .qodef-portfolio-filter-holder .qodef-portfolio-filter-holder-inner ul li span:hover {
-            color: #b2dd4c;
+            color: #1abac8;
         }
 
         .landing-new-custom .qodef-portfolio-filter-holder {
@@ -402,8 +402,8 @@
 
 
             <div class="custom-color-row-changer">
-                <span style="color: #b2dd4c; line-height: 20px; font-weight: 700;">hello@youremail.com</span><br/>
-                <span style="color: #b2dd4c; line-height: 20px; font-weight: 700;">+1234567890</span>
+                <span style="color: #1abac8; line-height: 20px; font-weight: 700;">hello@youremail.com</span><br/>
+                <span style="color: #1abac8; line-height: 20px; font-weight: 700;">+1234567890</span>
             </div>
         </div>
     </div>
@@ -4749,7 +4749,7 @@
 
     <span class="qodef-icon-shortcode square"
           style="margin: 0px -5px 0px 0px;width: 36px;height: 36px;line-height: 36px;background-color: rgba(255,255,255,0.01);border-style: solid;border-color: #b4b4b4;border-width: 1px"
-          data-hover-border-color="#b2dd4c" data-hover-background-color="#b2dd4c" data-hover-color="#ffffff"
+          data-hover-border-color="#1abac8" data-hover-background-color="#1abac8" data-hover-color="#ffffff"
           data-color="#ffffff">
                      <a class="" href="https://www.facebook.com/" target="_blank">
 
@@ -4760,8 +4760,8 @@
 
                                                     <span class="qodef-icon-shortcode square"
                                                           style="margin: 0px -4px 0px 0px;width: 36px;height: 36px;line-height: 36px;background-color: rgba(255,255,255,0.01);border-style: solid;border-color: #b4b4b4;border-width: 1px"
-                                                          data-hover-border-color="#b2dd4c"
-                                                          data-hover-background-color="#b2dd4c"
+                                                          data-hover-border-color="#1abac8"
+                                                          data-hover-background-color="#1abac8"
                                                           data-hover-color="#ffffff" data-color="#ffffff">
                      <a class="" href="https://twitter.com/" target="_blank">
 
@@ -4772,8 +4772,8 @@
 
                                                     <span class="qodef-icon-shortcode square"
                                                           style="margin: 0px -5px 0px 0px;width: 36px;height: 36px;line-height: 36px;background-color: rgba(255,255,255,0.01);border-style: solid;border-color: #b4b4b4;border-width: 1px"
-                                                          data-hover-border-color="#b2dd4c"
-                                                          data-hover-background-color="#b2dd4c"
+                                                          data-hover-border-color="#1abac8"
+                                                          data-hover-background-color="#1abac8"
                                                           data-hover-color="#ffffff" data-color="#ffffff">
                      <a class="" href="https://vine.co/" target="_blank">
 
@@ -4784,8 +4784,8 @@
 
                                                     <span class="qodef-icon-shortcode square"
                                                           style="margin: 0px -4px 0px 0px;width: 36px;height: 36px;line-height: 36px;background-color: rgba(255,255,255,0.01);border-style: solid;border-color: #b4b4b4;border-width: 1px"
-                                                          data-hover-border-color="#b2dd4c"
-                                                          data-hover-background-color="#b2dd4c"
+                                                          data-hover-border-color="#1abac8"
+                                                          data-hover-background-color="#1abac8"
                                                           data-hover-color="#ffffff" data-color="#ffffff">
                      <a class="" href="https://www.linkedin.com/" target="_blank">
 
@@ -4796,8 +4796,8 @@
 
                                                     <span class="qodef-icon-shortcode square"
                                                           style="margin: 0px -4px 0px 0px;width: 36px;height: 36px;line-height: 36px;background-color: rgba(255,255,255,0.01);border-style: solid;border-color: #b4b4b4;border-width: 1px"
-                                                          data-hover-border-color="#b2dd4c"
-                                                          data-hover-background-color="#b2dd4c"
+                                                          data-hover-border-color="#1abac8"
+                                                          data-hover-background-color="#1abac8"
                                                           data-hover-color="#ffffff" data-color="#ffffff">
                      <a class="" href="https://instagram.com/" target="_blank">
 
