@@ -31,6 +31,14 @@ Route::get('/about-us', function () {
     return view('about_us');
 });
 
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

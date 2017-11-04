@@ -1,5 +1,8 @@
 @extends('layouts.main_layout')
 
+@section('title')
+About Us &#8211; Cevizlab
+@endsection
 @section('content')
 
 
