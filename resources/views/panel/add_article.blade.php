@@ -79,7 +79,7 @@
         CKEDITOR.replace('editor1', {
             //ustomConfig: 'config_c.js',
             filebrowserBrowseUrl: '/img',
-            filebrowserUploadUrl: 'http://localhost/lab-project/public/upload'
+            filebrowserUploadUrl: "{{env('UPLOAD_URL')}}"
         });
     </script>
 
