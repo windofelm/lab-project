@@ -42,11 +42,15 @@ Route::get('/contact', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/upload', 'PanelController@upload');
 
 Route::group(['prefix' => 'dashboard'], function () {
     Route::get('/', 'PanelController@index')->name('dashboard');
     Route::get('/articles', 'PanelController@articles')->name('articles');
     Route::get('/articles/add', 'PanelController@store')->name('article-store');
+    Route::get('/articles/{id}', 'PanelController@show')->name("show-article");
     Route::post('/articles/add', 'PanelController@store');
+    Route::get('/articles/update/{id}', 'PanelController@update')->name("update-article");
+    Route::post('/articles/update/{id}', 'PanelController@postUpdate')->name("update-article");
 });
 
