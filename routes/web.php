@@ -52,6 +52,6 @@ Route::group(['prefix' => 'dashboard'], function () {
     Route::post('/articles/add', 'PanelController@store');
     Route::get('/articles/update/{id}', 'PanelController@update')->name("update-article");
     Route::post('/articles/update/{id}', 'PanelController@postUpdate')->name("update-article");
-    Route::post('/articles/delete/{id}', 'PanelController@delete')->name("delete-article");
+    Route::get('/articles/delete/{id}', 'PanelController@delete')->name("delete-article");
 });
 

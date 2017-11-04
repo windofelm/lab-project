@@ -154,5 +154,12 @@ class PanelController extends Controller
     {
         $article = Article::find($id);
         $article->delete();
+
+        foreach ($article->categories as $category){
+            $article_category = ArticleCategory::where("article_id", $article->id)->where("category_id", $category->id)->first();
+            $article_category->delete();
+        }
+
+        return redirect()->route("articles");
     }
 }
