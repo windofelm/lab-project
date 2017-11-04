@@ -44,7 +44,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/upload', 'PanelController@upload');
 
-Route::group(['prefix' => 'dashboard'], function () {
+Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function () {
     Route::get('/', 'PanelController@index')->name('dashboard');
     Route::get('/articles', 'PanelController@articles')->name('articles');
     Route::get('/articles/add', 'PanelController@store')->name('article-store');
