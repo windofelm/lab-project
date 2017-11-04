@@ -275,23 +275,23 @@ Lorem ipsum dolor sit amet
 
 </div> <!-- close div.qodef-wrapper-inner  -->
 </div> <!-- close div.qodef-wrapper -->
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/underscore.min.js'></script>
+<script type='text/javascript' src='startit-source/js/underscore.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var DavesWordPressLiveSearchConfig = {"resultsDirection":"","showThumbs":"false","showExcerpt":"false","showMoreResultsLink":"true","minCharsToSearch":"0","xOffset":"0","yOffset":"0","blogURL":"http:\/\/startit.select-themes.com","ajaxURL":"http:\/\/startit.select-themes.com\/wp-admin\/admin-ajax.php","viewMoreText":"View more results","outdatedJQuery":"Dave's WordPress Live Search requires jQuery 1.2.6 or higher. WordPress ships with current jQuery versions. But if you are seeing this message, it's likely that another plugin is including an earlier version.","resultTemplate":"<ul id=\"dwls_search_results\" class=\"search_results dwls_search_results\">\n<input type=\"hidden\" name=\"query\" value=\"<%- resultsSearchTerm %>\" \/>\n<% _.each(searchResults, function(searchResult, index, list) { %>\n        <%\n        \/\/ Thumbnails\n        if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) {\n                liClass = \"post_with_thumb\";\n        }\n        else {\n                liClass = \"\";\n        }\n        %>\n        <li class=\"daves-wordpress-live-search_result <%- liClass %> '\">\n        <% if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) { %>\n                <img src=\"<%= searchResult.attachment_thumbnail %>\" class=\"post_thumb\" \/>\n        <% } %>\n\n        <a href=\"<%= searchResult.permalink %>\" class=\"daves-wordpress-live-search_title\"><%= searchResult.post_title %><\/a>\n\n        <% if(searchResult.post_price !== undefined) { %>\n                <p class=\"price\"><%- searchResult.post_price %><\/p>\n        <% } %>\n\n        <% if(DavesWordPressLiveSearchConfig.showExcerpt == \"true\" && searchResult.post_excerpt) { %>\n                <p class=\"excerpt clearfix\"><%= searchResult.post_excerpt %><\/p>\n        <% } %>\n\n        <% if(e.displayPostMeta) { %>\n                <p class=\"meta clearfix daves-wordpress-live-search_author\" id=\"daves-wordpress-live-search_author\">Posted by <%- searchResult.post_author_nicename %><\/p><p id=\"daves-wordpress-live-search_date\" class=\"meta clearfix daves-wordpress-live-search_date\"><%- searchResult.post_date %><\/p>\n        <% } %>\n        <div class=\"clearfix\"><\/div><\/li>\n<% }); %>\n\n<% if(searchResults[0].show_more !== undefined && searchResults[0].show_more && DavesWordPressLiveSearchConfig.showMoreResultsLink == \"true\") { %>\n        <div class=\"clearfix search_footer\"><a href=\"<%= DavesWordPressLiveSearchConfig.blogURL %>\/?s=<%-  resultsSearchTerm %>\"><%- DavesWordPressLiveSearchConfig.viewMoreText %><\/a><\/div>\n<% } %>\n\n<\/ul>"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-content/plugins/daves-wordpress-live-search/js/daves-wordpress-live-search.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-content/plugins/daves-wordpress-live-search/js/excanvas.compiled.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-content/plugins/daves-wordpress-live-search/js/spinners.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+<script type='text/javascript' src='startit-source/js/excanvas.compiled.js'></script>
+<script type='text/javascript' src='startit-source/js/spinners.min.js'></script>
+<script type='text/javascript' src='startit-source/js/jquery.form.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"http:\/\/startit.select-themes.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
-<script type='text/javascript' src='//startit.select-themes.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='startit-source/js/scripts.js'></script>
+<script type='text/javascript' src='startit-source/js/jquery.blockUI.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/about-us\/?wc-ajax=%%endpoint%%"};
@@ -305,23 +305,23 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 /* ]]> */
 </script>
 <script type='text/javascript' src='//startit.select-themes.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/jquery/ui/core.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/jquery/ui/widget.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/jquery/ui/tabs.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/jquery/ui/accordion.min.js'></script>
+<script type='text/javascript' src='startit-source/js/core.min.js'></script>
+<script type='text/javascript' src='startit-source/js/widget.min.js'></script>
+<script type='text/javascript' src='startit-source/js/tabs.min.js'></script>
+<script type='text/javascript' src='startit-source/js/accordion.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var mejsL10n = {"language":"en-GB","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
 var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js'></script>
+<script type='text/javascript' src='startit-source/js/mediaelement-and-player.min.js'></script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/mediaelement/wp-mediaelement.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/jquery/ui/mouse.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/jquery/ui/slider.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-content/themes/startit/assets/js/third-party.min.js'></script>
+<script type='text/javascript' src='startit-source/js/mouse.min.js'></script>
+<script type='text/javascript' src='startit-source/js/slider.min.js'></script>
+<script type='text/javascript' src='startit-source/js/third-party.min.js'></script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-content/themes/startit/assets/js/smoothPageScroll.js'></script>
+<script type='text/javascript' src='startit-source/js/smoothPageScroll.js'></script>
 <script type='text/javascript' src='//maps.googleapis.com/maps/api/js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -329,10 +329,10 @@ var qodefGlobalVars = {"vars":{"qodefAddForAdminBar":0,"qodefElementAppearAmount
 var qodefPerPageVars = {"vars":{"qodefStickyScrollAmount":0,"qodefHeaderTransparencyHeight":0}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://startit.select-themes.com/wp-content/themes/startit/assets/js/modules.min.js'></script>
+<script type='text/javascript' src='startit-source/js/modules.min.js'></script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/comment-reply.min.js'></script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'></script>
-<script type='text/javascript' src='http://startit.select-themes.com/toolbar/toolbar.js'></script>
+<script type='text/javascript' src='startit-source/js/toolbar.js'></script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-content/themes/startit/assets/js/like.min.js'></script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/wp-embed.min.js'></script>
 </body>
