@@ -27,6 +27,10 @@ Route::get('/startit-last', function () {
     return view('startit_source');
 });
 
+Route::get('/about-us', function () {
+    return view('about_us');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
