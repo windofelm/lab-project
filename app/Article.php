@@ -24,4 +24,9 @@ class Article extends Model
     {
         return $this->belongsToMany(Category::class, 'article_categories');
     }
+
+    public function categoryIds()
+    {
+        return $this->belongsToMany(Category::class, 'article_categories')->pluck('category_id');
+    }
 }

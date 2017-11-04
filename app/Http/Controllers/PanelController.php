@@ -134,9 +134,10 @@ class PanelController extends Controller
         ($request->is_active) ? $article->is_active = 1 : $article->is_active = 0;
         $article->save();
 
-//        foreach ($article->categories as $artcategory){
-//            $article_category = ArticleCategory::find()
-//        }
+        foreach ($article->categories as $old_category){
+            $article_category = ArticleCategory::where("article_id", $article->id)->where("category_id", $old_category->id)->first();
+            $article_category->delete();
+        }
 
         foreach ($request->categories as $category){
             $article_category = new ArticleCategory();

@@ -23,13 +23,23 @@
 
     <div class="form-group {{ $errors->has('categories') ? 'has-danger' : '' }}">
         <label>Article Categories</label>
+
         <select multiple name="categories[]" class="form-control">
             @foreach($categories as $category)
-                @if(old("categories") && in_array($category->id, old("categories")))
-                    <option selected value="{{$category->id}}">{{$category->category_name}}</option>
+                @if(old("categories"))
+                    @if(old("categories") && in_array($category->id, old("categories")))
+                        <option selected value="{{$category->id}}">{{$category->category_name}}</option>
+                    @else
+                        <option value="{{$category->id}}">{{$category->category_name}}</option>
+                    @endif
                 @else
-                    <option value="{{$category->id}}">{{$category->category_name}}</option>
+                    @if(in_array($category->id, $article->categoryIds()->toArray()))
+                        <option selected value="{{$category->id}}">{{$category->category_name}}</option>
+                    @else
+                        <option value="{{$category->id}}">{{$category->category_name}}</option>
+                    @endif
                 @endif
+
             @endforeach
         </select>
         <div class="form-control-feedback">{{ $errors->first('categories') }}</div>

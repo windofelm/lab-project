@@ -43,7 +43,7 @@
                 @endforeach
             </td>
             <td>{{$article->is_active}}</td>
-            <td><a href="{{route('show-article', $article->id)}}" class="btn btn-primary btn-sm float-right">Detay</a></td>
+            <td><a href="{{route('show-article', $article->id)}}" class="btn btn-primary btn-sm float-right">Detail</a></td>
         </tr>
         @endforeach
         </tbody>
