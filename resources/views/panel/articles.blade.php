@@ -27,6 +27,7 @@
             <th>Body</th>
             <th>Categories</th>
             <th>Is Active</th>
+            <th></th>
         </tr>
         </thead>
         <tbody>
@@ -35,13 +36,14 @@
             <th scope="row">{{$article->id}}</th>
             <td>{{$article->user->name}}</td>
             <td>{{$article->title}}</td>
-            <td>{{\Illuminate\Support\Str::limit($article->body, 100)}}</td>
+            <td>{{\Illuminate\Support\Str::limit($article->body, 50)}}</td>
             <td>
                 @foreach($article->categories as $category)
                     <span class="badge badge-primary">{{$category->category_name}}</span>
                 @endforeach
             </td>
             <td>{{$article->is_active}}</td>
+            <td><a href="{{route('show-article', $article->id)}}" class="btn btn-primary btn-sm float-right">Detay</a></td>
         </tr>
         @endforeach
         </tbody>
