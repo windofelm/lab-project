@@ -135,6 +135,7 @@ class PanelController extends Controller
         $article->save();
 
         foreach ($article->categories as $old_category){
+
             $article_category = ArticleCategory::where("article_id", $article->id)->where("category_id", $old_category->id)->first();
             $article_category->delete();
         }
