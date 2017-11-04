@@ -1,0 +1,20 @@
+{
+  "name": "public",
+  "homepage": "https://github.com/windofelm/lab-project",
+  "authors": [
+    "windofelm <Location>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

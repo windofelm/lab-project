@@ -149,4 +149,10 @@ class PanelController extends Controller
 
         return redirect()->route('articles');
     }
+
+    public function delete($id)
+    {
+        $article = Article::find($id);
+        $article->delete();
+    }
 }
