@@ -1,7 +1,14 @@
 .qodef-main-menu ul li a{
     color: #fff;
+    font-weight:500;
 }
 
 .qodef-shopping-cart-outer .qodef-shopping-cart-header .qodef-header-cart i{
     color: #fff;
+}
+
+.carousel-inner h2{
+    font-size: 50px !important;
+    font-weight: 500;
+    line-height: 1.284em!important;
 }
