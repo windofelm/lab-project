@@ -12,3 +12,7 @@
     font-weight: 500;
     line-height: 1.284em!important;
 }
+
+.carousel-inner h3.qodef-slide-text{
+    /*font-weight: 400;*/
+}
