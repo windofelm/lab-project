@@ -16,3 +16,7 @@
 .carousel-inner h3.qodef-slide-text{
     /*font-weight: 400;*/
 }
+
+.qodef-side-menu-button-opener, .qodef-search-opener{
+    color: #fff;
+}
