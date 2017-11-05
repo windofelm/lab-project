@@ -61,7 +61,7 @@
 
         <div class="form-check">
             <label class="form-check-label">
-                <input type="checkbox" name="is_active" class="form-check-input">
+                <input type="checkbox" {{ old("is_active") ? "checked" : ""}} name="is_active" class="form-check-input">
                 Is Active
             </label>
         </div>

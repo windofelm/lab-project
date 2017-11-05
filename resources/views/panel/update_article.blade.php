@@ -71,7 +71,7 @@
 
     <div class="form-check">
         <label class="form-check-label">
-            <input type="checkbox" name="is_active" class="form-check-input">
+            <input {{($article->is_active) ? "checked" : ""}} type="checkbox" name="is_active" class="form-check-input">
             Is Active
         </label>
     </div>

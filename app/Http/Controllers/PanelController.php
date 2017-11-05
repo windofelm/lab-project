@@ -111,6 +111,7 @@ class PanelController extends Controller
 
     public function postUpdate(Request $request, $id)
     {
+
         $validator = Validator::make($request->all(), [
             "title" => "required",
             "body" => "required|min:300",

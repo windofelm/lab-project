@@ -29,4 +29,9 @@ class Article extends Model
     {
         return $this->belongsToMany(Category::class, 'article_categories')->pluck('category_id');
     }
+
+    public function author()
+    {
+        return $this->belongsTo(User::class, "user_id");
+    }
 }
