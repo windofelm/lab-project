@@ -8,7 +8,7 @@
 	</div>
 	<div id="text-15" class="widget qodef-sidearea widget_text">			<div class="textwidget"><a href="http://startit.select-themes.com/">
 
-<img src="startit-source/logo.png" alt="logo">
+<img src="startit-source/logo.png" alt="logo" style="width: 186px;">
 
 </a>
 

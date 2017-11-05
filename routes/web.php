@@ -35,6 +35,10 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/index', function () {
+    return view('index');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });
