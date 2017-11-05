@@ -8,7 +8,7 @@
 	</div>
 	<div id="text-15" class="widget qodef-sidearea widget_text">			<div class="textwidget"><a href="http://startit.select-themes.com/">
 
-<img src="startit-source/logo.png" alt="logo" style="width: 186px;">
+<img src="img/logo47.png" alt="logo" style="width: 226px;">
 
 </a>
 
@@ -78,8 +78,8 @@ Populate the sidearea with useful widgets. It’s simple to add images, categori
                     <div class="qodef-position-left-inner">
                         
 <div class="qodef-logo-wrapper">
-    <a href="http://startit.select-themes.com/" style="height: 90px;">
-        <img class="qodef-normal-logo" src="startit-source/logo.png" alt="logo"/>
+    <a href="http://startit.select-themes.com/" style="height: 60px;margin-left: 30px;">
+        <img class="qodef-normal-logo" src="img/logo47.png" alt="logo"/>
         <img class="qodef-dark-logo" src="startit-source/logo.png" alt="dark logo"/>        <img class="qodef-light-logo" src="startit-source/logo.png" alt="light logo"/>    </a>
 </div>
 

@@ -336,27 +336,7 @@ var qodefPerPageVars = {"vars":{"qodefStickyScrollAmount":0,"qodefHeaderTranspar
 <script type='text/javascript' src='http://startit.select-themes.com/wp-content/themes/startit/assets/js/like.min.js'></script>
 <script type='text/javascript' src='http://startit.select-themes.com/wp-includes/js/wp-embed.min.js'></script>
 </body>
-</html><div id="panel" style="margin-left: -318px;">   
-    <div id="panel-admin">
-		<h3>Try Out Other Color Combinations:</h3>
-		<p>Change the StartIt main color with just one click.</p>
-		<div class="panel-admin-box">
-			<div id="tootlbar_colors">
-				<div class="color active color1" data-color="#b4de50" style="background-color:#b4de50;"> <span>Default</span></div>
-				<div class="color color2" data-color="#b2b2b2" style="background-color:#b2b2b2;"><span>Grey</span></div>
-				<div class="color color3" data-color="#ffcd00" style="background-color:#ffcd00;"><span>Yellow</span></div>
-				<div class="color color4" data-color="#ff8a00" style="background-color:#ff8a00;"><span>Orange</span></div>
-				<div class="color color5" data-color="#e54e53" style="background-color:#e54e53;"><span>Red</span></div>
-				<div class="color color6" data-color="#e5356f" style="background-color:#e5356f;"><span>Pink</span></div>
-				<div class="color color7" data-color="#1abc9c" style="background-color:#1abc9c;"><span>Green</span></div>
-				<div class="color color8" data-color="#1abac8" style="background-color:#1abac8;"><span>Aqua</span></div>
-				<div class="color color8" data-color="#159eee" style="background-color:#159eee;"><span>Blue</span></div>
-			</div>
-		</div>
-		
-    </div>
-    <a class="open" href="#"><span><i class="icon-settings icons"></i></span></a>
-</div>
+</html>
 
 
 
