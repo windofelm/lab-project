@@ -33,10 +33,10 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='layerslider-css'  href='startit-source/css/layerslider.css' type='text/css' media='all' />
+<!--<link rel='stylesheet' id='layerslider-css'  href='startit-source/css/layerslider.css' type='text/css' media='all' />-->
 <link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='startit-source/css/styles.css' type='text/css' media='all' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='startit-source/css/settings.css' type='text/css' media='all' />
+<!--<link rel='stylesheet' id='rs-plugin-settings-css'  href='startit-source/css/settings.css' type='text/css' media='all' />-->
 <style id='rs-plugin-settings-inline-css' type='text/css'>
 #rs-demo-id {}
 </style>
