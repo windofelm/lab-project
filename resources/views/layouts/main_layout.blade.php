@@ -45,7 +45,7 @@ img.emoji {
 <link rel='stylesheet' id='qode_startit_modules-css'  href='startit-source/css/modules.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='qodef_font_awesome-css'  href='startit-source/fontawesome/css/font-awesome.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='qodef_font_elegant-css'  href='startit-source/css/elegant-icons/style.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='qodef_ion_icons-css'  href='startit-source/css/ion-icons/css/ionicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='qodef_ion_icons-css'  href='startit-source/ion-icons/ionicons.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='qodef_linea_icons-css'  href='startit-source/css/linea-icons/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='qodef_simple_line_icons-css'  href='startit-source/css/simple-line-icons/simple-line-icons.css' type='text/css' media='all' />
 <link rel='stylesheet' id='qodef_dripicons-css'  href='startit-source/css/dripicons/dripicons.css' type='text/css' media='all' />
