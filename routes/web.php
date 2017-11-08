@@ -11,21 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+}); */
 
-Route::get('/foo', function () {
-    return view('foo');
-});
-
-Route::get('/fooo', function () {
-    return view('fooo');
-});
-
-Route::get('/startit-last', function () {
-    return view('startit_source');
-});
 
 Route::get('/about-us', function () {
     return view('about_us');
@@ -35,7 +24,7 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index');
 });
 

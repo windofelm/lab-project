@@ -61,7 +61,8 @@ Designed and Development by: Incognito Themes
 ============================================= */
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lato:100,300,400,700,900|Merriweather|Parisienne|Playfair+Display:400,700|Source+Sans+Pro:400,700');
 @import url("../css/bootstrap.min.css");
-@import url("../css/font-awesome.min.css");
+@import url("../css/fonts/font-awesome.min.css");
+@import url("../css/fonts/font-awesome.css");
 @import url("../css/custom-icons.min.css");
 @import url("../css/transitions.css");
 @import url("../css/flexslider.css");
