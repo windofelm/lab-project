@@ -149,17 +149,7 @@
               <li><a href="login.html">Login</a></li>
             </ul>
           </li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-            <ul class="dropdown-menu">
-              <li><a href="blog-standard.html">Blog Standard</a></li>
-              <li><a href="blog-grid.html">Blog Grid</a></li>
-              <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-              <li><a href="blog-masonry.html">Blog Masonry</a></li>
-              <li><a href="blog-carousel.html">Blog Carousel</a></li>
-              <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
-              <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-            </ul>
-          </li>
+          <li class="dropdown"> <a href="{{route('blog-articles')}}">Blog</a></li>
           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
             <ul class="dropdown-menu">
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boxed</a>

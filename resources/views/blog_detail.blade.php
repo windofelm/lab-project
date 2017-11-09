@@ -28,7 +28,7 @@ Blog &#8211; Cevizlab
           <div class="post-img"> <img class="img-responsive" src="http://www.incognitothemes.com/arcon/assets/images/post/post-01.jpg" alt=""/> </div>
           <div class="post-info">
             <h3><a href="blog-grid.html">{{$article->title}}</a></h3>
-            <h6>{{\Illuminate\Support\Carbon::parse($article->created_at)->format("d-m-Y")}}</h6>
+            <h6>{{\Illuminate\Support\Carbon::parse($article->created_at)->format('d-m-y H:i:s')}}</h6>
             <p>{{$article->seo_description}}</p>
             <a class="readmore dark-color" href="#"><span>Read More</span> <i class="fa fa-angle-right"></i></a> </div>
         </div>
