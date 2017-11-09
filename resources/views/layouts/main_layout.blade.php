@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>@yield('title')</title>
-<link rel="shortcut icon" href="/acron/assets/images/favicon.ico">
-<link rel="stylesheet" href="/acron/assets/css/master.css">
-<link rel="stylesheet" href="/acron/assets/css/responsive.css">
+<link rel="shortcut icon" href="acron/assets/images/favicon.ico">
+<link rel="stylesheet" href="acron/assets/css/master.css">
+<link rel="stylesheet" href="acron/assets/css/responsive.css">
 </head>
 <body>
 
@@ -21,7 +21,7 @@
         <div class="row">
           <div class="col-sm-6 col-md-4">
             <div class="widget widget-text">
-              <div class="logo logo-footer"><a href="index.html"> <img class="logo logo-display" src="../img/logo47.png" alt=""></a> </div>
+              <div class="logo logo-footer"><a href="index.html"> <img class="logo logo-display" src="{{asset('img/logo47.png')}}" alt=""></a> </div>
               <p>We’re nuts about improving your business so we ensure that we track results from day one. Sure, we come up with great creative ideas that engage and captivate your customers, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut magna ultricies pellentesque.</p>
             </div>
           </div>

@@ -30,15 +30,15 @@
         <ul>
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" > <i class="mdi mdi-shopping"></i> <span class="badge">3</span> </a>
             <ul class="dropdown-menu cart-list">
-              <li> <a href="#" class="photo"><img src="assets/images/thumb01.jpg" class="cart-thumb" alt="" /></a>
+              <li> <a href="#" class="photo"><img src="acron/assets/images/thumb01.jpg" class="cart-thumb" alt="" /></a>
                 <h6><a href="#">Delica omtantur </a></h6>
                 <p>2x - <span class="price">$99.99</span></p>
               </li>
-              <li> <a href="#" class="photo"><img src="assets/images/thumb02.jpg" class="cart-thumb" alt="" /></a>
+              <li> <a href="#" class="photo"><img src="acron/assets/images/thumb02.jpg" class="cart-thumb" alt="" /></a>
                 <h6><a href="#">Omnes ocurreret</a></h6>
                 <p>1x - <span class="price">$33.33</span></p>
               </li>
-              <li> <a href="#" class="photo"><img src="assets/images/thumb03.jpg" class="cart-thumb" alt="" /></a>
+              <li> <a href="#" class="photo"><img src="acron/assets/images/thumb03.jpg" class="cart-thumb" alt="" /></a>
                 <h6><a href="#">Agam facilisis</a></h6>
                 <p>2x - <span class="price">$99.99</span></p>
               </li>
@@ -53,7 +53,7 @@
       <!--=== Start Header Navigation ===-->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
-        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="../img/logo47.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt=""> </a> </div>
+        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="{{asset('img/logo47.png')}}" alt=""> <img class="logo logo-scrolled" src="{{asset('img/logo47.png')}}" alt=""> </a> </div>
       </div>
       <!--=== End Header Navigation ===-->
       
