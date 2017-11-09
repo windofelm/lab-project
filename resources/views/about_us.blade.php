@@ -4,404 +4,277 @@
 About Us &#8211; Cevizlab
 @endsection
 @section('content')
+@include('layouts.main_header')
 
-
-                    <a id='qodef-back-to-top'  href='#'>
-                <span class="qodef-icon-stack">
-                     <i class="qodef-icon-font-awesome fa fa-chevron-up " ></i>                </span>
-            </a>
-                
-        <div class="qodef-content" style="margin-top: -100px">
- <div class="qodef-content-inner">
-    <div class="qodef-title qodef-standard-type qodef-preload-background qodef-has-background qodef-has-parallax-background qodef-content-left-alignment qodef-animation-no qodef-title-image-not-responsive" style="height:350px;background-image:url(http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Title.jpg);" data-height="350" data-background-width=&quot;1920&quot;>
-        <div class="qodef-title-image"><img src="http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Title.jpg" alt="&nbsp;" /> </div>
-        <div class="qodef-title-holder" >
-            <div class="qodef-container clearfix">
-                <div class="qodef-container-inner">
-                    <div class="qodef-title-subtitle-holder" style="">
-                        <div class="qodef-title-subtitle-holder-inner">
-                                                        <h1 ><span>About Us</span></h1>
-                                                                    <span class="qodef-subtitle" ><span>Lorem ipsum dolor sit</span></span>
-                                                                                                                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--=== page-title-section start ===-->
+  <section class="title-hero-bg about-cover-bg" data-stellar-background-ratio="0.2">
+    <div class="container">
+      <div class="page-title text-center white-color">
+        <h1>About Us</h1>
+        <h4 class="text-uppercase mt-30">Creative Digital Agency since 2004</h4>
+      </div>
     </div>
+  </section>
+  <!--=== page-title-section end ===-->
+  
+  <!--=== Who We Are Start ===-->
+  <section class="first-ico-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 section-heading">
+          <h2 class="text-uppercase">Who We Are</h2>
+          <h4 class="text-uppercase source-font">- The world at your fingertips -</h4>
+          <div class="mt-30">
+            <p>We’re nuts about improving your business so we ensure that we track results from day one. Sure, we come up with great creative ideas that engage and captivate your customers, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut magna ultricies pellentesque. </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-50">
+        <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-scale font-50px dark-icon"></i>
+          <h4 class="text-uppercase">STRATEGY</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+        </div>
+        <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-chart-arc font-50px dark-icon"></i>
+          <h4 class="text-uppercase">CREATIVELY</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+        </div>
+        <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-flask-outline font-50px dark-icon"></i>
+          <h4 class="text-uppercase">PRODUCTIVITY</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Who We Are End ===-->
+  
+  <!--=== Our Skills Start ======-->
+  <section class="white-bg">
+    <div class="col-md-6 col-sm-4 bg-flex bg-flex-left">
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(/acron/assets/images/startup-bg-left.jpg);"></div>
+    </div>
+    <div class="container">
+      <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
+        <h2 class="text-uppercase font-700">Our Skills</h2>
+        <h4 class="mt-10 line-height-26 source-font">We develop big ideas that sell.</h4>
+        <div class="left-service-box pt-40 pb-20">
+          <div class="progress-bar-title">UI/ UX Design</div>
+          <div class="progress">
+            <div class="progress-bar" data-width="80"> <span>80%</span> </div>
+          </div>
+          <div class="progress-bar-title">Web Development</div>
+          <div class="progress">
+            <div class="progress-bar" data-width="55"> <span>55%</span> </div>
+          </div>
+          <div class="progress-bar-title">jQuery</div>
+          <div class="progress">
+            <div class="progress-bar" data-width="75"> <span>75%</span> </div>
+          </div>
+          <div class="progress-bar-title">Branding</div>
+          <div class="progress">
+            <div class="progress-bar" data-width="99"> <span>99%</span> </div>
+          </div>
+          <div class="progress-bar-title">App Development</div>
+          <div class="progress">
+            <div class="progress-bar" data-width="48"> <span>48%</span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Our Skills End ======-->
+  
+  <!--=== Counter Start ======-->
+  <section class="dark-bg pt-80 pb-80">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-clock blue-icon font-30px"></i>
+          <h2 class="count white-color font-700">5600</h2>
+          <h3>Working Hours</h3>
+        </div>
+        <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-emoticon blue-icon font-30px"></i>
+          <h2 class="count white-color font-700">220</h2>
+          <h3>Happy Clients</h3>
+        </div>
+        <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-trophy-variant blue-icon font-30px"></i>
+          <h2 class="count white-color font-700">108</h2>
+          <h3>Awwwards</h3>
+        </div>
+        <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-cup blue-icon font-30px"></i>
+          <h2 class="count white-color font-700">650</h2>
+          <h3>Projects a Year</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Counter End ======-->
+  
+  <!--=== Our Service Start ======-->
+  <section class="white-bg">
+    <div class="col-md-6 col-sm-4 bg-flex bg-flex-right">
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/startup-bg-right.jpg);"></div>
+    </div>
+    <div class="container">
+      <div class="col-md-5 col-sm-7">
+        <h2 class="text-uppercase font-700">About Us</h2>
+        <h4 class="mt-10 line-height-26 source-font">Part of your success.</h4>
+        <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac vulputate dolor. Nullam venenatis enim in quam euismod fringilla. Donec in risus eget purus mattis varius. Nulla dapibus quis orci et tincidunt. Phasellus in rhoncus quam. Fusce a est lacinia, ultricies mi nec, rutrum dolor.</p>
+        <p>Donec vehicula cursus metus viverra aliquet. Nam vel malesuada diam. Proin eleifend luctus mi, vel tincidunt sapien auctor nec. In quis elit in mauris dignissim pharetra. Praesent efficitur dolor a quam tristique ultricies.</p>
+        <p class="mt-30"><a class="btn btn-color btn-circle">Read more</a></p>
+      </div>
+    </div>
+  </section>
+  <!--=== Our Service End ======-->
+  
+  <!--=== Our Team Start ======-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 section-heading">
+          <h2 class="text-uppercase font-700">Meet Our Team</h2>
+          <h4 class="mt-10 line-height-26 source-font">- We Are Stronger -</h4>
+        </div>
+      </div>
+      <div class="row mt-50">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="team-member-container gallery-image-hover"> <img src="/acron/assets/images/team/team-01.jpg" class="img-responsive" alt="team-01">
+            <div class="member-caption">
+              <div class="member-description text-center">
+                <div class="member-description-wrap">
+                  <h4 class="member-title">David Marks</h4>
+                  <p class="member-subtitle">UI/UX Designer</p>
+                  <ul class="member-icons">
+                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--=== Member End ===-->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="team-member-container gallery-image-hover"> <img src="/acron/assets/images/team/team-02.jpg" class="img-responsive" alt="team-02">
+            <div class="member-caption">
+              <div class="member-description text-center">
+                <div class="member-description-wrap">
+                  <h4 class="member-title">Lynda Stone</h4>
+                  <p class="member-subtitle">Photographer</p>
+                  <ul class="member-icons">
+                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--=== Member End ===-->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="team-member-container gallery-image-hover"> <img src="/acron/assets/images/team/team-03.jpg" class="img-responsive" alt="team-03">
+            <div class="member-caption">
+              <div class="member-description text-center">
+                <div class="member-description-wrap">
+                  <h4 class="member-title">Karl Casey</h4>
+                  <p class="member-subtitle">Web Developer</p>
+                  <ul class="member-icons">
+                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--=== Member End ===-->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="team-member-container gallery-image-hover"> <img src="/acron/assets/images/team/team-04.jpg" class="img-responsive" alt="team-04">
+            <div class="member-caption">
+              <div class="member-description text-center">
+                <div class="member-description-wrap">
+                  <h4 class="member-title">Roland Buford</h4>
+                  <p class="member-subtitle">CEO/Founder</p>
+                  <ul class="member-icons">
+                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--=== Member End ===-->
+      </div>
+    </div>
+  </section>
+  <!--=== Our Team End ======-->
+  
+  <!--=== Testimonails Start ======-->
+  <section class="grey-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 section-heading">
+          <h2 class="text-uppercase font-700">Testimonials</h2>
+          <h4 class="mt-10 line-height-26 source-font">- Statisfy Clients -</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="slick testimonial">
+            <!--=== Slide ===-->
+            <div class="testimonial-item">
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-1.jpg" alt="avatar-1"/>
+                <h5>Hank Dano</h5>
+                <p>Founder &amp; CEO of Arcon </p>
+                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              </div>
+            </div>
+            <!--=== Slide ===-->
+            <div class="testimonial-item">
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-2.jpg" alt="avatar-1"/>
+                <h5>Julia Banks</h5>
+                <p>CEO of Arcon</p>
+                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              </div>
+            </div>
+            <!--=== Slide ===-->
+            <div class="testimonial-item">
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-3.jpg" alt="avatar-1"/>
+                <h5>Mark Smith</h5>
+                <p>CEO of Arcon</p>
+                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Testimonails End ======-->
+  
+  <!--=== Clients Start ======-->
+  <section class="pt-50 pb-50">
+    <div class="container">
+      <div class="row">
+        <div id="client-slider" class="owl-carousel">
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/1.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/2.png" alt="02"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/3.png" alt="03"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/4.png" alt="04"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/5.png" alt="05"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/6.png" alt="06"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/7.png" alt="07"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/8.png" alt="08"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/9.png" alt="09"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/10.png" alt="10"/> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Clients End ======-->
 
-
-<div class="qodef-full-width">
-<div class="qodef-full-width-inner">
-						<div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445428533264 qodef-content-aligment-center qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h2>Create Your Own Genuine Web Masterpiece</h2>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
-
-		</div>
-	</div>
-</div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445429606650 qodef-content-aligment-center qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-vertical-alignment-middle qodef-horizontal-alignment-left qodef-grow-in" style="transition-delay:100ms;-webkit-transition-delay:100ms">
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-401784" style="padding: 0 0 0 0">
-						
-	<div class="wpb_single_image wpb_content_element vc_align_left">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="450" src="http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-1.jpg" class="vc_single_image-img attachment-full" alt="m" srcset="http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-1.jpg 600w, http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-1-300x225.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></div>
-		</figure>
-	</div>
-		</div>
-	</div>
-</div></div><div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h5>Embracing Digital</h5>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 19px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-vertical-alignment-middle qodef-horizontal-alignment-left qodef-grow-in" style="transition-delay:300ms;-webkit-transition-delay:300ms">
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-869190" style="padding: 0 0 0 0">
-						
-	<div class="wpb_single_image wpb_content_element vc_align_left">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="450" src="http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-2.jpg" class="vc_single_image-img attachment-full" alt="m" srcset="http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-2.jpg 600w, http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-2-300x225.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></div>
-		</figure>
-	</div>
-		</div>
-	</div>
-</div></div><div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h5>TeamWork &amp; Office Culture</h5>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 19px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-vertical-alignment-middle qodef-horizontal-alignment-left qodef-grow-in" style="transition-delay:500ms;-webkit-transition-delay:500ms">
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-192291" style="padding: 0 0 0 0">
-						
-	<div class="wpb_single_image wpb_content_element vc_align_left">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="450" src="http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-3.jpg" class="vc_single_image-img attachment-full" alt="m" srcset="http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-3.jpg 600w, http://startit.select-themes.com/wp-content/uploads/2015/10/About-us-Single-image-3-300x225.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></div>
-		</figure>
-	</div>
-		</div>
-	</div>
-</div></div><div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h5>Cross-Platform Data</h5>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 19px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1446801558556 qodef-content-aligment-left qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6"><div class="vc_column-inner "><div class="wpb_wrapper">
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h2>Our Skills &amp; Expertise</h2>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 29px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam</p>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_empty_space"  style="height: 35px" ><span class="vc_empty_space_inner"></span></div>
-<div class="qodef-progress-bar">
-	<h6 class="qodef-progress-title-holder clearfix">
-		<span class="qodef-progress-title">Social Media</span>
-		<span class="qodef-progress-number-wrapper qodef-floating qodef-floating-outside " >
-			<span class="qodef-progress-number">
-				<span class="qodef-percent">0</span>	
-									<span class="qodef-down-arrow"></span>
-							</span>
-		</span>
-	</h6>
-	<div class="qodef-progress-content-outer " style="background-color:#ffffff">
-		<div data-percentage=75 class="qodef-progress-content"  ></div>
-	</div>
-</div>	<div class="qodef-progress-bar">
-	<h6 class="qodef-progress-title-holder clearfix">
-		<span class="qodef-progress-title">Coding</span>
-		<span class="qodef-progress-number-wrapper qodef-floating qodef-floating-outside " >
-			<span class="qodef-progress-number">
-				<span class="qodef-percent">0</span>	
-									<span class="qodef-down-arrow"></span>
-							</span>
-		</span>
-	</h6>
-	<div class="qodef-progress-content-outer " style="background-color:#ffffff">
-		<div data-percentage=64 class="qodef-progress-content"  ></div>
-	</div>
-</div>	<div class="qodef-progress-bar">
-	<h6 class="qodef-progress-title-holder clearfix">
-		<span class="qodef-progress-title">PR &amp; Marketing</span>
-		<span class="qodef-progress-number-wrapper qodef-floating qodef-floating-outside " >
-			<span class="qodef-progress-number">
-				<span class="qodef-percent">0</span>	
-									<span class="qodef-down-arrow"></span>
-							</span>
-		</span>
-	</h6>
-	<div class="qodef-progress-content-outer " style="background-color:#ffffff">
-		<div data-percentage=83 class="qodef-progress-content"  ></div>
-	</div>
-</div>	<div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445430340482 qodef-content-aligment-left qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner "><div class="wpb_wrapper">
-<div class="qodef-team main-info-below-image">
-	<div class="qodef-team-inner">
-					<div class="qodef-team-image">
-				<img src="http://startit.select-themes.com/wp-content/uploads/2015/10/team-1-home-main.jpg" alt="qodef-team-image"/>
-				<div class="qodef-team-position-holder">
-					<div class="qodef-circle-animate"></div>
-					<div class="qodef-team-position-icon">
-						
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-settings qodef-icon-element" style="" ></i>
-            </span>
-
-					</div>
-											<h6 class="q_team_position">Developer</h6>
-									</div>
-			</div>
-		
-					<div class="qodef-team-info">
-									<div class="qodef-team-title-holder">
-													<h5 class="qodef-team-name">
-								Dexter Collier							</h5>
-												
-					</div>
-				
-									<div class='qodef-team-text'>
-						<div class='qodef-team-text-inner'>
-							<div class='qodef-team-description'>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-							</div>
-						</div>
-					</div>
-						</div>
-	</div>
-</div><div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner "><div class="wpb_wrapper">
-<div class="qodef-team main-info-below-image">
-	<div class="qodef-team-inner">
-					<div class="qodef-team-image">
-				<img src="http://startit.select-themes.com/wp-content/uploads/2015/10/team-2-home-main.jpg" alt="qodef-team-image"/>
-				<div class="qodef-team-position-holder">
-					<div class="qodef-circle-animate"></div>
-					<div class="qodef-team-position-icon">
-						
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-pencil qodef-icon-element" style="" ></i>
-            </span>
-
-					</div>
-											<h6 class="q_team_position">Graphic Designer</h6>
-									</div>
-			</div>
-		
-					<div class="qodef-team-info">
-									<div class="qodef-team-title-holder">
-													<h5 class="qodef-team-name">
-								Bill Gilbert							</h5>
-												
-					</div>
-				
-									<div class='qodef-team-text'>
-						<div class='qodef-team-text-inner'>
-							<div class='qodef-team-description'>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-							</div>
-						</div>
-					</div>
-						</div>
-	</div>
-</div><div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner "><div class="wpb_wrapper">
-<div class="qodef-team main-info-below-image">
-	<div class="qodef-team-inner">
-					<div class="qodef-team-image">
-				<img src="http://startit.select-themes.com/wp-content/uploads/2015/10/team-3-home-main.jpg" alt="qodef-team-image"/>
-				<div class="qodef-team-position-holder">
-					<div class="qodef-circle-animate"></div>
-					<div class="qodef-team-position-icon">
-						
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-notebook qodef-icon-element" style="" ></i>
-            </span>
-
-					</div>
-											<h6 class="q_team_position">Accountant</h6>
-									</div>
-			</div>
-		
-					<div class="qodef-team-info">
-									<div class="qodef-team-title-holder">
-													<h5 class="qodef-team-name">
-								Patty Morrison							</h5>
-												
-					</div>
-				
-									<div class='qodef-team-text'>
-						<div class='qodef-team-text-inner'>
-							<div class='qodef-team-description'>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-							</div>
-						</div>
-					</div>
-						</div>
-	</div>
-</div><div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner "><div class="wpb_wrapper">
-<div class="qodef-team main-info-below-image">
-	<div class="qodef-team-inner">
-					<div class="qodef-team-image">
-				<img src="http://startit.select-themes.com/wp-content/uploads/2015/10/team-4-home-main.jpg" alt="qodef-team-image"/>
-				<div class="qodef-team-position-holder">
-					<div class="qodef-circle-animate"></div>
-					<div class="qodef-team-position-icon">
-						
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-wrench qodef-icon-element" style="" ></i>
-            </span>
-
-					</div>
-											<h6 class="q_team_position">Engineer</h6>
-									</div>
-			</div>
-		
-					<div class="qodef-team-info">
-									<div class="qodef-team-title-holder">
-													<h5 class="qodef-team-name">
-								Bernard Smith							</h5>
-												
-					</div>
-				
-									<div class='qodef-team-text'>
-						<div class='qodef-team-text-inner'>
-							<div class='qodef-team-description'>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-							</div>
-						</div>
-					</div>
-						</div>
-	</div>
-</div><div class="vc_empty_space"  style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445498658608 qodef-content-aligment-center qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h2>What Are You Waiting For? StartIt Today!</h2>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 15px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
-
-		</div>
-	</div>
-</div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section qodef-content-aligment-left" style=""><div class="clearfix qodef-full-section-inner"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-carousel-holder with_navigation clearfix"><div class="qodef-carousel" data-items="6" data-navigation="yes"><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-1.png" alt="Home 2 C1">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-2.png" alt="Home 2 C2">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-3.png" alt="Home 2 C3">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-4.png" alt="Home 2 C4">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-5.png" alt="Home 2 C5">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-6.png" alt="Home 2 C6">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-1.png" alt="Home 2 C7">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-2.png" alt="Home 2 C8">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-3.png" alt="Home 2 C9">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-4.png" alt="Home 2 C10">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-5.png" alt="Home 2 C11">
-                    </span>
-                                        	</div><div class="qodef-carousel-item-holder">
-	                                            <span class="qodef-carousel-first-image-holder  qodef-image-zoom">
-                        <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/Home-2-Carousel-6.png" alt="Home 2 C12">
-                    </span>
-                                        	</div></div></div></div></div></div></div></div>
-							</div>
-</div>
-</div> <!-- close div.content_inner -->
-</div>  <!-- close div.content -->
 
 @endsection

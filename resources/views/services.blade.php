@@ -4,460 +4,132 @@
 Services &#8211; Cevizlab
 @endsection
 @section('content')
+@include('layouts.main_header')
 
-<a id='qodef-back-to-top'  href='#'>
-                <span class="qodef-icon-stack">
-                     <i class="qodef-icon-font-awesome fa fa-chevron-up " ></i>                </span>
-            </a>
-                
-        <div class="qodef-content" style="margin-top: -100px">
- <div class="qodef-content-inner">
-    <div class="qodef-title qodef-standard-type qodef-preload-background qodef-has-background qodef-has-parallax-background qodef-content-left-alignment qodef-animation-no qodef-title-image-not-responsive" style="height:350px;background-image:url(http://startit.select-themes.com/wp-content/uploads/2015/10/services-title.jpg);" data-height="350" data-background-width=&quot;1920&quot;>
-        <div class="qodef-title-image"><img src="http://startit.select-themes.com/wp-content/uploads/2015/10/services-title.jpg" alt="&nbsp;" /> </div>
-        <div class="qodef-title-holder" >
-            <div class="qodef-container clearfix">
-                <div class="qodef-container-inner">
-                    <div class="qodef-title-subtitle-holder" style="">
-                        <div class="qodef-title-subtitle-holder-inner">
-                                                        <h1 ><span>Services</span></h1>
-                                                                    <span class="qodef-subtitle" ><span>Lorem ipsum dolor sit</span></span>
-                                                                                                                    </div>
-                    </div>
-                </div>
+<!--=== page-title-section start ===-->
+  <section class="title-hero-bg service-cover-bg" data-stellar-background-ratio="0.2">
+    <div class="container">
+      <div class="page-title text-center">
+        <h1>Service Simple</h1>
+        <h4 class="text-uppercase mt-30 white-color">Ideas that soar</h4>
+      </div>
+    </div>
+  </section>
+  <!--=== page-title-section end ===-->
+  
+  <!--=== Who We Are Start ======-->
+  <section class="main-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
+          <div class="pull-left"><i class="mdi mdi-gnome font-50px blue-icon"></i></div>
+          <div class="pull-right">
+            <h5 class="mt-0">Brand Design</h5>
+            <p>Designing a good website that accommodates a lot of content is a tricky balancing act to pull off.</p>
+          </div>
+        </div>
+        <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
+          <div class="pull-left"><i class="mdi mdi-apps font-50px blue-icon"></i></div>
+          <div class="pull-right">
+            <h5 class="mt-0">App Development</h5>
+            <p>We build mobile apps for the conference, integrating unique content and branding to create.</p>
+          </div>
+        </div>
+        <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
+          <div class="pull-left"><i class="mdi mdi-lightbulb-on font-50px blue-icon"></i></div>
+          <div class="pull-right">
+            <h5 class="mt-0">Digital Marketing</h5>
+            <p>Google has made this important since 1998 when it launched. Content became, and still is king since websites.</p>
+          </div>
+        </div>
+        <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
+          <div class="pull-left"><i class="mdi mdi-owl font-50px blue-icon"></i></div>
+          <div class="pull-right">
+            <h5 class="mt-0">Unique Ideas</h5>
+            <p>Designing a good website that accommodates a lot of content is a tricky balancing act to pull off.</p>
+          </div>
+        </div>
+        <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
+          <div class="pull-left"><i class="mdi mdi-border-color font-50px blue-icon"></i></div>
+          <div class="pull-right">
+            <h5 class="mt-0">Easy Customization</h5>
+            <p>We build mobile apps for the conference, integrating unique content and branding to create.</p>
+          </div>
+        </div>
+        <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
+          <div class="pull-left"><i class="mdi mdi-screen-rotation font-50px blue-icon"></i></div>
+          <div class="pull-right">
+            <h5 class="mt-0">Fully Responsive</h5>
+            <p>Google has made this important since 1998 when it launched. Content became, and still is king since websites.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Who We Are End ======-->
+  
+  <!--=== Testimonails Start ======-->
+  <section class="white-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 section-heading">
+          <h2 class="text-uppercase">Testimonials</h2>
+          <h4 class="text-uppercase source-font">- Statisfy Clients -</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="slick testimonial">
+            <!--=== Slide ===-->
+            <div class="testimonial-item">
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-1.jpg" alt="avatar-1"/>
+                <h5>Hank Dano</h5>
+                <p>Founder &amp; CEO of Arcon </p>
+                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              </div>
             </div>
+            <!--=== Slide ===-->
+            <div class="testimonial-item">
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-2.jpg" alt="avatar-1"/>
+                <h5>Julia Banks</h5>
+                <p>CEO of Arcon</p>
+                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              </div>
+            </div>
+            <!--=== Slide ===-->
+            <div class="testimonial-item">
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-3.jpg" alt="avatar-1"/>
+                <h5>Mark Smith</h5>
+                <p>CEO of Arcon</p>
+                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-
-
-<div class="qodef-full-width">
-<div class="qodef-full-width-inner">
-						<div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445426375947 qodef-content-aligment-left qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-horizontal-alignment-center qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-695517" style="padding: 40px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-695517 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-695517 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-695517 {
-						padding:  !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-695517 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-695517 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-695517 {
-						padding: 20px !important;
-					}
-				}
-								</style>
-						<div class="qodef-image-with-icon-holder">
-    <div class="qodef-image-with-icon-holder-inner">
-        <div class="qodef-image-with-icon-holder-icon-wrapper">
-            
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-tag qodef-icon-element" style="" ></i>
-            </span>
-
+  </section>
+  <!--=== Testimonails End ======-->
+  
+  <!--=== Clients Start ======-->
+  <section class="pt-50 pb-50">
+    <div class="container">
+      <div class="row">
+        <div id="client-slider" class="owl-carousel">
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/1.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/2.png" alt="02"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/3.png" alt="03"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/4.png" alt="04"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/5.png" alt="05"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/6.png" alt="06"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/7.png" alt="07"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/8.png" alt="08"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/9.png" alt="09"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/10.png" alt="10"/> </div>
         </div>
-        <div class="qodef-image-with-icon-holder-image-wrapper">
-            <span class="qodef-image-holder">
-                <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/services-image-1.jpg" alt="qodef-image-with-icon"/>
-            </span>
-        </div>
+      </div>
     </div>
-</div>		</div>
-	</div>
-</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-744369" style="padding: 90px 0px 60px 10px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-744369 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-744369 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-744369 {
-						padding: 25px 0px 0px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-744369 {
-						padding: 15px 0px 15px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-744369 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-744369 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-								</style>
-						
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h3>Digital Marketing &amp; Other Digital Services</h3>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros</p>
-
-		</div>
-	</div>
-		</div>
-	</div>
-</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445427426188 qodef-content-aligment-left qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-627907" style="padding: 90px 10px 60px 0px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-627907 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-627907 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-627907 {
-						padding: 25px 0px 0px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-627907 {
-						padding: 15px 0px 15px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-627907 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-627907 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-								</style>
-						
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h3>Development &amp; Testing</h3>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros</p>
-
-		</div>
-	</div>
-		</div>
-	</div>
-</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-horizontal-alignment-center qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-946700" style="padding: 40px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-946700 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-946700 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-946700 {
-						padding:  !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-946700 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-946700 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-946700 {
-						padding: 20px !important;
-					}
-				}
-								</style>
-						<div class="qodef-image-with-icon-holder">
-    <div class="qodef-image-with-icon-holder-inner">
-        <div class="qodef-image-with-icon-holder-icon-wrapper">
-            
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-wrench qodef-icon-element" style="" ></i>
-            </span>
-
-        </div>
-        <div class="qodef-image-with-icon-holder-image-wrapper">
-            <span class="qodef-image-holder">
-                <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/services-image-2.jpg" alt="qodef-image-with-icon"/>
-            </span>
-        </div>
-    </div>
-</div>		</div>
-	</div>
-</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445427537869 qodef-content-aligment-left qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-horizontal-alignment-center qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-313248" style="padding: 40px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-313248 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-313248 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-313248 {
-						padding:  !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-313248 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-313248 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-313248 {
-						padding: 20px !important;
-					}
-				}
-								</style>
-						<div class="qodef-image-with-icon-holder">
-    <div class="qodef-image-with-icon-holder-inner">
-        <div class="qodef-image-with-icon-holder-icon-wrapper">
-            
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-screen-tablet qodef-icon-element" style="" ></i>
-            </span>
-
-        </div>
-        <div class="qodef-image-with-icon-holder-image-wrapper">
-            <span class="qodef-image-holder">
-                <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/services-image-3.jpg" alt="qodef-image-with-icon"/>
-            </span>
-        </div>
-    </div>
-</div>		</div>
-	</div>
-</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-404802" style="padding: 90px 0px 60px 10px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-404802 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-404802 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-404802 {
-						padding: 25px 0px 0px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-404802 {
-						padding: 15px 0px 15px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-404802 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-404802 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-								</style>
-						
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h3>Cross-Platform Services</h3>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros</p>
-
-		</div>
-	</div>
-		</div>
-	</div>
-</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid qodef-section vc_custom_1445427531143 qodef-content-aligment-left qodef-grid-section" style=""><div class="clearfix qodef-section-inner"><div class="qodef-section-inner-margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-539665" style="padding: 90px 10px 60px 0px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-539665 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-539665 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-539665 {
-						padding: 25px 0px 0px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-539665 {
-						padding: 15px 0px 15px 0px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-539665 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-539665 {
-						padding: 30px 10px 30px 10px !important;
-					}
-				}
-								</style>
-						
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<h3>Social Media &amp; Analytics</h3>
-
-		</div>
-	</div>
-<div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros</p>
-
-		</div>
-	</div>
-		</div>
-	</div>
-</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="qodef-elements-holder qodef-responsive-mode-768" ><div class="qodef-elements-holder-item qodef-horizontal-alignment-center qodef-" >
-	<div class="qodef-elements-holder-item-inner">
-		<div class="qodef-elements-holder-item-content qodef-elements-holder-custom-943907" style="padding: 40px">
-						<style type="text/css" data-type="qodef-elements-custom-padding">
-								@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-943907 {
-						padding:  !important;
-					}
-				}
-													@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-						.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-943907 {
-							padding:  !important;
-						}
-					}
-												@media only screen and (min-width: 768px) and (max-width: 1024px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-943907 {
-						padding:  !important;
-					}
-				}
-												@media only screen and (min-width: 600px) and (max-width: 768px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-943907 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (min-width: 480px) and (max-width: 600px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-943907 {
-						padding: 20px !important;
-					}
-				}
-												@media only screen and (max-width: 480px) {
-					.qodef-elements-holder .qodef-elements-holder-item-content.qodef-elements-holder-custom-943907 {
-						padding: 20px !important;
-					}
-				}
-								</style>
-						<div class="qodef-image-with-icon-holder">
-    <div class="qodef-image-with-icon-holder-inner">
-        <div class="qodef-image-with-icon-holder-icon-wrapper">
-            
-    <span class="qodef-icon-shortcode circle "  >
-        
-        <i class="qodef-icon-simple-line-icon icon-envelope qodef-icon-element" style="" ></i>
-            </span>
-
-        </div>
-        <div class="qodef-image-with-icon-holder-image-wrapper">
-            <span class="qodef-image-holder">
-                <img src="http://startit.select-themes.com/wp-content/uploads/2015/10/services-image-4.jpg" alt="qodef-image-with-icon"/>
-            </span>
-        </div>
-    </div>
-</div>		</div>
-	</div>
-</div></div></div></div></div></div></div></div>
-							</div>
-</div>
-</div> <!-- close div.content_inner -->
-</div>  <!-- close div.content -->
-
-
-
+  </section>
+  <!--=== Clients End ======-->
 
 @endsection
