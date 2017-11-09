@@ -96,16 +96,16 @@ Contact &#8211; Cevizlab
     <div class="container">
       <div class="row">
         <div id="client-slider" class="owl-carousel">
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/1.png" alt="01"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/2.png" alt="02"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/3.png" alt="03"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/4.png" alt="04"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/5.png" alt="05"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/6.png" alt="06"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/7.png" alt="07"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/8.png" alt="08"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/9.png" alt="09"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/10.png" alt="10"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/1.png')}}" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/2.png')}}" alt="02"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/3.png')}}" alt="03"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/4.png')}}" alt="04"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/5.png')}}" alt="05"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/6.png')}}" alt="06"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/7.png')}}" alt="07"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/8.png')}}" alt="08"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/9.png')}}" alt="09"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/10.png')}}" alt="10"/> </div>
         </div>
       </div>
     </div>
@@ -114,5 +114,5 @@ Contact &#8211; Cevizlab
 
 @endsection
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChhYvVBA6-m-ZEEgvOhZ59MCuHusMOX0k&v=3.exp&sensor=false&callback=initialize"></script>
 

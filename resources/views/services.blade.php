@@ -82,7 +82,7 @@ Services &#8211; Cevizlab
           <div class="slick testimonial">
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-1.jpg" alt="avatar-1"/>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-1.jpg')}}" alt="avatar-1"/>
                 <h5>Hank Dano</h5>
                 <p>Founder &amp; CEO of Arcon </p>
                 <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
@@ -90,7 +90,7 @@ Services &#8211; Cevizlab
             </div>
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-2.jpg" alt="avatar-1"/>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-2.jpg')}}" alt="avatar-1"/>
                 <h5>Julia Banks</h5>
                 <p>CEO of Arcon</p>
                 <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
@@ -98,7 +98,7 @@ Services &#8211; Cevizlab
             </div>
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="/acron/assets/images/team/avatar-3.jpg" alt="avatar-1"/>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>
                 <h5>Mark Smith</h5>
                 <p>CEO of Arcon</p>
                 <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
@@ -116,16 +116,16 @@ Services &#8211; Cevizlab
     <div class="container">
       <div class="row">
         <div id="client-slider" class="owl-carousel">
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/1.png" alt="01"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/2.png" alt="02"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/3.png" alt="03"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/4.png" alt="04"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/5.png" alt="05"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/6.png" alt="06"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/7.png" alt="07"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/8.png" alt="08"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/9.png" alt="09"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="/acron/assets/images/clients/10.png" alt="10"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/1.png')}}" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/2.png')}}" alt="02"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/3.png')}}" alt="03"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/4.png')}}" alt="04"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/5.png')}}" alt="05"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/6.png')}}" alt="06"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/7.png')}}" alt="07"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/8.png')}}" alt="08"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/9.png')}}" alt="09"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="{{asset('acron/assets/images/clients/10.png')}}" alt="10"/> </div>
         </div>
       </div>
     </div>
