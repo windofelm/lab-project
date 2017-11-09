@@ -32,6 +32,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/blog', 'FrontController@articles')->name('blog-articles');
+Route::get('/blog/{slug}/{id}', 'FrontController@article')->name('blogarticle');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

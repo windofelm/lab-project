@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>@yield('title')</title>
-<link rel="shortcut icon" href="acron/assets/images/favicon.ico">
-<link rel="stylesheet" href="acron/assets/css/master.css">
-<link rel="stylesheet" href="acron/assets/css/responsive.css">
+<link rel="shortcut icon" href="{{asset('acron/assets/images/favicon.ico')}}">
+<link rel="stylesheet" href="{{asset('acron/assets/css/master.css')}}">
+<link rel="stylesheet" href="{{asset('acron/assets/css/responsive.css')}}">
 </head>
 <body>
 
@@ -92,11 +92,11 @@
 <!--=== Wrapper End ===-->
 
 <!--=== Javascript Plugins ===-->
-<script src="acron/assets/js/jquery.min.js"></script>
-<script src="acron/assets/js/validator.js"></script>
-<script src="acron/assets/js/plugins.js"></script>
-<script src="acron/assets/js/master.js"></script>
-<script src="acron/assets/js/bootsnav.js"></script>
+<script src="{{asset('acron/assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('acron/assets/js/validator.js')}}"></script>
+<script src="{{asset('acron/assets/js/plugins.js')}}"></script>
+<script src="{{asset('acron/assets/js/master.js')}}"></script>
+<script src="{{asset('acron/assets/js/bootsnav.js')}}"></script>
 <!--=== Javascript Plugins End ===-->
 
 </body>
