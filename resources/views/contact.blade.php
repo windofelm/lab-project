@@ -113,3 +113,6 @@ Contact &#8211; Cevizlab
   <!--=== Clients End ======-->
 
 @endsection
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize"></script>
+
