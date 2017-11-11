@@ -2,7 +2,7 @@
 
 @section('title')
 
-CEVİZLAB TEKNOLOJİ
+Teknoloji, Web Yazılım Alanında Yeni Adresiniz
 
 @endsection
 
