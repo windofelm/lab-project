@@ -26,10 +26,11 @@ Blog &#8211; Cevizlab
 
         @foreach($articles as $article)
         <div class="post mb-50">
-          <div class="post-img"> <img class="img-responsive" src="{{asset('acron/assets/images/about-video-gym-img.jpg')}}" alt=""/> </div>
+          <div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>
           <div class="post-info">
-            <h3><a href="{{route('blogarticle', [\Illuminate\Support\Str::slug($article->title),$article->id])}}">{{$article->title}}</a></h3>
-            <h6>{{\Illuminate\Support\Carbon::parse($article->created_at)->format("d-m-Y")}}</h6>
+{{--            <h3><a href="{{route('blogarticle', [\Illuminate\Support\Str::slug($article->title),$article->id])}}">{{$article->title}}</a></h3>--}}
+            <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">{{$article->title}}</a></h3>
+            <h6>Tarih: {{\Illuminate\Support\Carbon::parse($article->created_at)->format("d-m-Y")}}</h6>
             <p>{{\Illuminate\Support\Str::words(strip_tags($article->body), 20, "...")}}</p>
             <a class="readmore dark-color" href="#"><span>Daha Fazla</span> <i class="fa fa-angle-right"></i></a> </div>
         </div>
@@ -38,12 +39,21 @@ Blog &#8211; Cevizlab
 
         <div class="blog-pagination">
           <ul class="pagination">
-            <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+            @if($articles->currentPage() > 1)
+              <li class="page-item"><a class="page-link" href="{{$articles->previousPageUrl()}}">Previous</a></li>
+            @endif
+            @for($i = 1; $i <= $articles->lastPage(); $i++ )
+              @if(($i < $articles->currentPage()+3) && $i > $articles->currentPage()-3)
+                @if($articles->currentPage() == $i)
+                  <li class="page-item active"><a class="page-link" href="{{url()->current()."?page=".$i}}">{{$i}}</a></li>
+                @else
+                  <li class="page-item"><a class="page-link" href="{{url()->current()."?page=".$i}}">{{$i}}</a></li>
+                @endif
+              @endif
+            @endfor
+            @if($articles->currentPage() < $articles->lastPage())
+              <li class="page-item"><a class="page-link" href="{{$articles->nextPageUrl()}}">Next</a></li>
+            @endif
           </ul>
         </div>
       </div>

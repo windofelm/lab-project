@@ -89,9 +89,9 @@ class PanelController extends Controller
 
         $imageName = $file->getClientOriginalName().sha1(time()).".".$file->getClientOriginalExtension();
 
-        $file->move('images/', $imageName);
+        $file->move('images/blog/', $imageName);
 
-        return url('/')."/images/".$imageName;
+        return url('/')."/images/blog/".$imageName;
     }
 
     public function show($id)

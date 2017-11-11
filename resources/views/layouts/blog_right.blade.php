@@ -22,11 +22,9 @@
     <div class="widget sidebar_widget widget_categories">
         <h4 class="widget-title">Categories</h4>
         <ul>
-            <li> <a href="#">Business</a> </li>
-            <li> <a href="#">Health</a> </li>
-            <li> <a href="#">Motion Graphic</a> </li>
-            <li> <a href="#">Conecpt Design</a> </li>
-            <li> <a href="#">Lifestyle</a> </li>
+            @foreach(\App\Category::all() as $category)
+                <li> <a href="{{route('blog-articles', $category->slug)}}">{{$category->category_name}}</a> </li>
+            @endforeach
         </ul>
     </div>
     <div class="widget sidebar_widget widget_tag_cloud">

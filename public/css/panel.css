@@ -8,3 +8,6 @@
   float: left;
   margin: 10px 25px 10px 0px;
 }
+img {
+  max-width: 100%;
+}
