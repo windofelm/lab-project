@@ -25,7 +25,7 @@ Blog &#8211; Cevizlab
     <div class="row">
       <div class="col-md-8">
         <div class="post">
-          <div class="post-img"> <img class="img-responsive" src="http://www.incognitothemes.com/arcon/assets/images/post/post-01.jpg" alt=""/> </div>
+          <div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>
           <div class="post-info">
             <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">{{$article->title}}</a></h3>
             <h6>{{\Illuminate\Support\Carbon::parse($article->created_at)->format('d-m-y H:i:s')}}</h6>
