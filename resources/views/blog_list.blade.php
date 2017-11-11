@@ -11,8 +11,8 @@ Blog &#8211; Cevizlab
 <section class="title-hero-bg blog-cover-bg" data-stellar-background-ratio="0.2">
   <div class="container">
     <div class="page-title text-center">
-      <h1>Blog Sidebar Right</h1>
-      <h4 class="text-uppercase mt-30 white-color">Checkout Our Latest Posts</h4>
+      <h1>Web Programlamaya Başlayın</h1>
+      <h4 class="text-uppercase mt-30 white-color">Güncel makaleler için abone olun</h4>
     </div>
   </div>
 </section>
@@ -23,6 +23,10 @@ Blog &#8211; Cevizlab
   <div class="container">
     <div class="row">
       <div class="col-md-8">
+
+        @if (Session::has('error'))
+          <div class="outline-alert alert alert-danger red-color" role="alert">{{Session::get('error')}}</div>
+        @endif
 
         @foreach($articles as $article)
         <div class="post mb-50">
