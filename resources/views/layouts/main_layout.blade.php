@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>@yield('title')</title>
+<meta name="description" content="@yield('meta_description')">
 <link rel="shortcut icon" href="{{asset('acron/assets/images/favicon.ico')}}">
 <link rel="stylesheet" href="{{asset('acron/assets/css/master.css')}}">
 <link rel="stylesheet" href="{{asset('acron/assets/css/responsive.css')}}">

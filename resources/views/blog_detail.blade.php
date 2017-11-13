@@ -1,8 +1,9 @@
 @extends('layouts.main_layout')
 
-@section('title')
-Blog &#8211; Cevizlab
-@endsection
+@section('title', $article->seo_title)
+
+@section('meta_description', $article->seo_description)
+
 @section('content')
 
 @include('layouts.main_header')
