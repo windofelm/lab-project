@@ -10,9 +10,11 @@ namespace App\Http\Controllers;
 
 
 use App\Article;
+use App\ArticleComment;
 use App\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 
 class FrontController extends Controller
@@ -69,5 +71,28 @@ class FrontController extends Controller
         }
 
         return view('blog_detail', ["article" => $article]);
+    }
+
+    public function comment(Request $request, $article_id)
+    {
+        $validator = Validator::make($request->all(), [
+            "author" => "required",
+            "email" => "required|email",
+            "comment" => "required|min:15"
+        ]);
+
+        if($validator->fails()){
+            return back()->withErrors($validator)->withInput();
+        }
+
+        $comment = new ArticleComment();
+        $comment->article_id = $article_id;
+        $comment->name = $request->author;
+        $comment->comment = $request->comment;
+        $comment->email = $request->email;
+        $comment->ip_address = $request->ip();
+        $comment->save();
+
+        return back()->with("success", "Yorumunuz başarılı şekilde eklendi.");
     }
 }

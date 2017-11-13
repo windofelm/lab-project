@@ -34,6 +34,7 @@ Route::get('/contact', function () {
 
 Route::get('/blog/{category_slug?}', 'FrontController@articles')->name('blog-articles');
 Route::get('/detail/{slug}', 'FrontController@article')->name('blogarticle');
+Route::post('/comment/{article_id}', 'FrontController@comment')->name('post-comment');
 //Route::get('/blog/{slug}/{id}', 'FrontController@article')->name('blogarticle');
 
 Auth::routes();

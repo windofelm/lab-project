@@ -29,6 +29,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
+
+      @if (Session::has('success'))
+          <div class="outline-alert alert alert-success green" role="alert">{{Session::get('success')}}</div>
+      @endif
+
+      @foreach ($errors->all() as $message)
+          <div class="outline-alert alert alert-danger red-color" role="alert">{{$message}}</div>
+      @endforeach
+
         <div class="post">
           {{--<div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>--}}
           <div class="post-info">
@@ -54,26 +63,25 @@
         </div>
         <div id="respond" class="comment-respond">
           <h2 id="reply-title" class="comment-reply-title">Post a comment</h2>
-          <form method="post" id="form-comments" class="comment-form">
+          <form method="POST" class="comment-form" action="{{route('post-comment', $article->id)}}">
             <div class="form-group">
-              <textarea name="comment" id="comment-field" class="form-control" placeholder="Comment" rows="5"></textarea>
+              <textarea name="comment" class="form-control" placeholder="Comment" rows="5">{{ old('comment') }}</textarea>
             </div>
             <div class="row-form row">
               <div class="col-form col-md-6">
                 <div class="form-group">
-                  <input name="author" type="text" class="form-control" placeholder="Name">
+                  <input name="author" value="{{ old('author') }}" type="text" class="form-control" placeholder="Name">
                 </div>
               </div>
               <div class="col-form col-md-6">
                 <div class="form-group">
-                  <input name="email" type="text" class="form-control" placeholder="Email">
+                  <input name="email" value="{{ old('email') }}" type="text" class="form-control" placeholder="Email">
                 </div>
               </div>
             </div>
             <p class="form-submit">
               <input name="submit" type="submit" id="submit-btn" class="btn btn-color btn-circle" value="Post Comment">
-              <input type="hidden" name="comment_post_ID">
-              <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+              {{csrf_field()}}
             </p>
           </form>
         </div>
