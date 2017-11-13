@@ -18,19 +18,19 @@
 
 Route::get('/about-us', function () {
     return view('about_us');
-});
+})->name('about-us');
 
 Route::get('/services', function () {
     return view('services');
-});
+})->name('services');
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('main');
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
 
 Route::get('/blog/{category_slug?}', 'FrontController@articles')->name('blog-articles');
 Route::get('/detail/{slug}', 'FrontController@article')->name('blogarticle');

@@ -28,7 +28,7 @@
       <!--=== Start Atribute Navigation ===-->
       <div class="attr-nav">
         <ul>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" > <i class="mdi mdi-shopping"></i> <span class="badge">3</span> </a>
+          <!--<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" > <i class="mdi mdi-shopping"></i> <span class="badge">3</span> </a>
             <ul class="dropdown-menu cart-list">
               <li> <a href="#" class="photo"><img src="acron/assets/images/thumb01.jpg" class="cart-thumb" alt="" /></a>
                 <h6><a href="#">Delica omtantur </a></h6>
@@ -44,7 +44,7 @@
               </li>
               <li class="total"> <span class="pull-right"><strong>Total</strong>: $0.00</span> <a href="#" class="btn btn-default btn-cart">Cart</a> </li>
             </ul>
-          </li>
+          </li>-->
           <li class="search"><a href="#" id="search-button"><i class="mdi mdi-magnify"></i></a></li>
         </ul>
       </div>
@@ -60,8 +60,9 @@
       <!--=== Collect the nav links, forms, and other content for toggling ===-->
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav" data-in="fadeIn" data-out="fadeOut">
-          <li> <a href="index.html">Home</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+          <li> <a href="{{route('main')}}">ANASAYFA</a></li>
+	  <li> <a href="{{route('about-us')}}">HAKKIMIZDA</a></li>
+          <!--<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
             <ul class="dropdown-menu">
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
                 <ul class="dropdown-menu">
@@ -89,9 +90,11 @@
               <li><a href="career.html">Careers</a></li>
               <li><a href="login.html">Login</a></li>
             </ul>
-          </li>
+          </li>-->
           <li class="dropdown"> <a href="{{route('blog-articles')}}">Blog</a></li>
-          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+	  <li> <a href="{{route('services')}}">HİZMETLER</a></li>
+	  <li> <a href="{{route('contact')}}">İLETİŞİM</a></li>
+          <!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
             <ul class="dropdown-menu">
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boxed</a>
                 <ul class="dropdown-menu">
@@ -123,8 +126,8 @@
               </li>
               <li><a href="single-portfolio.html">Single Portfolio</a></li>
             </ul>
-          </li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shops</a>
+          </li>-->
+          <!--<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shops</a>
             <ul class="dropdown-menu">
               <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
               <li><a href="shop-standard.html">Shop Standard</a></li>
@@ -134,8 +137,8 @@
               <li><a href="shop-cart.html">Shop Cart</a></li>
               <li><a href="shop-checkout.html">Shop Checkout</a></li>
             </ul>
-          </li>
-          <li class="dropdown megamenu-fw"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Widgets</a>
+          </li>-->
+          <!--<li class="dropdown megamenu-fw"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Widgets</a>
             <ul class="dropdown-menu megamenu-content" role="menu">
               <li>
                 <div class="row">
@@ -153,7 +156,7 @@
                     </div>
                   </div>
                   <!--=== end col-4 ===-->
-                  <div class="col-menu col-md-4">
+                  <!--<div class="col-menu col-md-4">
                     <h6 class="title">Widgets</h6>
                     <div class="content">
                       <ul class="menu-col">
@@ -167,7 +170,7 @@
                     </div>
                   </div>
                   <!--=== end col-4 ===-->
-                  <div class="col-menu col-md-4">
+                  <!--<div class="col-menu col-md-4">
                     <h6 class="title">Widgets</h6>
                     <div class="content">
                       <ul class="menu-col">
@@ -182,9 +185,9 @@
                   </div>
                 </div>
                 <!--=== end row ===-->
-              </li>
+              <!--</li>
             </ul>
-          </li>
+          </li>-->
         </ul>
       </div>
       <!--=== /.navbar-collapse ===-->
