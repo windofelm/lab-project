@@ -12,8 +12,12 @@
 <section class="title-hero-bg blog-cover-bg" data-stellar-background-ratio="0.2">
   <div class="container">
     <div class="page-title text-center">
-      <h1>Blog Standard</h1>
-      <h4 class="text-uppercase mt-30 white-color">Checkout Our Latest Posts</h4>
+      <h1>{{$article->title}}</h1>
+      <h4 class="text-uppercase mt-30 white-color">
+          @foreach($article->categories as $category)
+          <span class="badge">{{$category->category_name}}</span>
+          @endforeach
+      </h4>
     </div>
   </div>
 </section>
@@ -26,7 +30,7 @@
     <div class="row">
       <div class="col-md-8">
         <div class="post">
-          <div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>
+          {{--<div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>--}}
           <div class="post-info">
             <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">{{$article->title}}</a></h3>
             <h6>{{\Illuminate\Support\Carbon::parse($article->created_at)->format('d-m-y H:i:s')}}</h6>
