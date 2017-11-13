@@ -1,8 +1,7 @@
 @extends('layouts.main_layout')
 
-@section('title')
-About Us &#8211; Cevizlab
-@endsection
+@section('title', 'About Us Cevizlab')
+
 @section('content')
 @include('layouts.main_header')
 
@@ -50,7 +49,7 @@ About Us &#8211; Cevizlab
   <!--=== Our Skills Start ======-->
   <section class="white-bg">
     <div class="col-md-6 col-sm-4 bg-flex bg-flex-left">
-      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(/acron/assets/images/startup-bg-left.jpg);"></div>
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url({{asset('acron/assets/images/startup-bg-left.jpg')}});"></div>
     </div>
     <div class="container">
       <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
@@ -111,7 +110,7 @@ About Us &#8211; Cevizlab
   <!--=== Our Service Start ======-->
   <section class="white-bg">
     <div class="col-md-6 col-sm-4 bg-flex bg-flex-right">
-      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(/acron/assets/images/startup-bg-right.jpg);"></div>
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url({{asset('acron/assets/images/startup-bg-right.jpg')}});"></div>
     </div>
     <div class="container">
       <div class="col-md-5 col-sm-7">

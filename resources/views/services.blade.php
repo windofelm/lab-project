@@ -1,8 +1,6 @@
 @extends('layouts.main_layout')
 
-@section('title')
-Services &#8211; Cevizlab
-@endsection
+@section('title', 'Services - Cevizlab')
 @section('content')
 @include('layouts.main_header')
 
