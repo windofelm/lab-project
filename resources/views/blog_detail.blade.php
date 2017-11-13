@@ -40,11 +40,9 @@
 
         <div class="post">
           {{--<div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>--}}
-          <div class="post-info">
+          <div class="blue-bg pt-10 pb-10 pl-20">
             <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">{{$article->title}}</a></h3>
-            <h6>{{\Illuminate\Support\Carbon::parse($article->created_at)->format('d-m-y H:i:s')}}</h6>
-            <p>{{$article->seo_description}}</p>
-            <a class="readmore dark-color" href="#"><span>Read More</span> <i class="fa fa-angle-right"></i></a> </div>
+          </div>
         </div>
         <div class="blog-standard">
           {!! $article->body !!}
