@@ -12,6 +12,7 @@ namespace App\Http\Controllers;
 use App\Article;
 use App\ArticleComment;
 use App\Category;
+use App\Tag;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
@@ -94,5 +95,18 @@ class FrontController extends Controller
         $comment->save();
 
         return back()->with("success", "Yorumunuz başarılı şekilde eklendi.");
+    }
+
+    public function sample()
+    {
+        return view("sample");
+    }
+
+    public function tagArticles($tag_slug)
+    {
+        $articles = Tag::where("name", $tag_slug)->first()->articles()
+            ->orderBy("id", "DESC")->paginate(3);
+
+        return view('blog_list', ['articles' => $articles]);
     }
 }

@@ -11,6 +11,8 @@
     </div>
 @endsection
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-beta.3/css/select2.min.css">
+
     <h4 class="card-title">Special title treatment</h4>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
@@ -59,6 +61,16 @@
             <div class="form-control-feedback">{{ $errors->first('image') }}</div>
         </div>
 
+        <div class="form-group {{ $errors->has('tags') ? 'has-danger' : '' }}">
+            <label>Article Tags</label>
+            <select multiple="true" name="tags[]" id="tagSelector" class="form-control select2" style="">
+                @foreach($tags as $tag)
+                    <option value="{{$tag->name}}">{{$tag->name}}</option>
+                @endforeach
+            </select>
+            <div class="form-control-feedback">{{ $errors->first('image') }}</div>
+        </div>
+
         <div class="form-check">
             <label class="form-check-label">
                 <input type="checkbox" {{ old("is_active") ? "checked" : ""}} name="is_active" class="form-check-input">
@@ -80,6 +92,26 @@
             //ustomConfig: 'config_c.js',
             filebrowserBrowseUrl: '/img',
             filebrowserUploadUrl: "{{env('UPLOAD_URL')}}"
+        });
+    </script>
+
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-beta.3/js/select2.min.js"></script>
+    <script type="application/javascript">
+        $('.select2').select2({
+            tags: true,
+            tokenSeparators: [",", " "],
+            createTag: function (tag) {
+                return {
+                    id: tag.term,
+                    text: tag.term,
+                    isNew : true
+                };
+            }
+        }).on("select2:select", function(e) {
+            if(e.params.data.isNew){
+                $('#console').append('<code>New tag: {"' + e.params.data.id + '":"' + e.params.data.text + '"}</code><br>');
+                $(this).find('[value="'+e.params.data.id+'"]').replaceWith('<option selected value="'+e.params.data.id+'">'+e.params.data.text+'</option>');
+            }
         });
     </script>
 

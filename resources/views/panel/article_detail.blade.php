@@ -45,6 +45,16 @@
         </li>
         <li class="list-group-item">
             <ul class="list-inline">
+                <li class="list-inline-item"><strong>Tags:</strong></li>
+                <li class="list-inline-item">
+                    @foreach($article->tags as $tag)
+                        <span class="badge badge-warning mr-1">{{$tag->name}}</span>
+                    @endforeach
+                </li>
+            </ul>
+        </li>
+        <li class="list-group-item">
+            <ul class="list-inline">
                 <li class="list-inline-item"><strong>Created At:</strong></li>
                 <li class="list-inline-item">
                     {{\Illuminate\Support\Carbon::parse($article->created_at)->format("d-m-Y H:i:s")}}

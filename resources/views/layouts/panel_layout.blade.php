@@ -11,6 +11,9 @@
     <title>@yield('page_title')</title>
     <link rel="stylesheet" href="{{asset('bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/panel.css')}}">
+
+    <script type="application/javascript" src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
+
 </head>
 <body>
 
@@ -47,7 +50,6 @@
 
     </div>
 
-    <script type="application/javascript" src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
     <script type="application/javascript" src="{{asset('bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
 </body>
 </html>

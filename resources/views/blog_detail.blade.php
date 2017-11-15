@@ -41,16 +41,20 @@
         <div class="post">
           <div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>
           <div class="post-info">
-            <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">It's Like Dating Entertainment</a></h3>
-            <h6>April 28, 2017</h6>
-            <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
+            <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">{{$article->title}}</a></h3>
+            <h6>{{\Carbon\Carbon::parse($article->created_at)->format("d-m-Y H:i:s")}}</h6>
+            <p>{{$article->seo_description}}</p>
             <a class="readmore dark-color" href="#"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
           </div>
         </div>
         <div class="blog-standard">
           {!! $article->body !!}
         </div>
-        <div class="post-tags"> <a href="#">Design</a> <a href="#">Branding</a> <a href="#">Stationery</a> <a href="#">Development</a> <a href="#">Concept</a> </div>
+        <div class="post-tags">
+            @foreach($article->tags as $tag)
+                <a href="{{route('tag-articles', $tag->name)}}">{{$tag->name}}</a>
+            @endforeach
+        </div>
         <div class="post-controls">
           <div class="post-share">
             <ul>

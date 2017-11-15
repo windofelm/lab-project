@@ -11,10 +11,13 @@ namespace App\Http\Controllers;
 
 use App\Article;
 use App\ArticleCategory;
+use App\ArticleTag;
 use App\Category;
+use App\Tag;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 
 class PanelController extends Controller
 {
@@ -40,8 +43,11 @@ class PanelController extends Controller
         if($request->method() == "GET"){
 
             $categories = Category::all();
+            $tags = Tag::all();
+
             return view('panel.add_article', [
-                "categories" => $categories
+                "categories" => $categories,
+                "tags" => $tags
             ]);
 
         }elseif ($request->method() == "POST"){
@@ -76,6 +82,25 @@ class PanelController extends Controller
                 $article_category->article_id = $article->id;
                 $article_category->category_id = $category;
                 $article_category->save();
+            }
+
+            // Article tags
+            foreach ($request->tags as $tag_name){
+
+                $tag_slug = Str::slug($tag_name);
+                $tag = Tag::where("name", $tag_slug)->first();
+
+                if(is_null($tag)){
+                    $tag = new Tag();
+                    $tag->name = $tag_slug;
+                    $tag->save();
+                }
+
+                $article_tag = new ArticleTag();
+                $article_tag->article_id = $article->id;
+                $article_tag->tag_id = $tag->id;
+                $article_tag->save();
+
             }
 
             return redirect()->route('articles');
