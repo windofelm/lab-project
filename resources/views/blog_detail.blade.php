@@ -39,9 +39,12 @@
       @endforeach
 
         <div class="post">
-          {{--<div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>--}}
-          <div class="blue-bg pt-10 pb-10 pl-20">
-            <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">{{$article->title}}</a></h3>
+          <div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>
+          <div class="post-info">
+            <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">It's Like Dating Entertainment</a></h3>
+            <h6>April 28, 2017</h6>
+            <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
+            <a class="readmore dark-color" href="#"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
           </div>
         </div>
         <div class="blog-standard">
