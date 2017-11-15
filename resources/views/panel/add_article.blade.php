@@ -63,7 +63,7 @@
             <label>Article Tags</label>
             <select multiple="true" name="tags[]" id="tagSelector" class="form-control select2" style="">
                 @foreach($tags as $tag)
-                    @if(in_array($tag->name, old('tags')))
+                    @if(old("tags") && in_array($tag->name, old('tags')))
                         <option selected value="{{$tag->name}}">{{$tag->name}}</option>
                     @else
                         <option value="{{$tag->name}}">{{$tag->name}}</option>
@@ -92,7 +92,7 @@
         //CKEDITOR.replace('editor1');
         CKEDITOR.replace('editor1', {
             //ustomConfig: 'config_c.js',
-            filebrowserBrowseUrl: '/img',
+            filebrowserBrowseUrl: '../../images/blog/',
             filebrowserUploadUrl: "{{env('UPLOAD_URL')}}"
         });
     </script>
