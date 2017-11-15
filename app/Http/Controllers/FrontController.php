@@ -42,9 +42,6 @@ class FrontController extends Controller
                 ->orWhere("seo_description", "LIKE", "%".$request->search."%")
                 ->orderBy("id", "DESC");
 
-            if(!$articles->total()){
-                return back()->with('error', 'Aradığınız ay girilmiş makale kaydı bulunamadı.');
-            }
         }else{
 
             $articles = Article::orderBy("id", "DESC");
