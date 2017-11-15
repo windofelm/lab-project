@@ -63,7 +63,11 @@
             <label>Article Tags</label>
             <select multiple="true" name="tags[]" id="tagSelector" class="form-control select2" style="">
                 @foreach($tags as $tag)
-                    <option value="{{$tag->name}}">{{$tag->name}}</option>
+                    @if(in_array($tag->name, old('tags')))
+                        <option selected value="{{$tag->name}}">{{$tag->name}}</option>
+                    @else
+                        <option value="{{$tag->name}}">{{$tag->name}}</option>
+                    @endif
                 @endforeach
             </select>
             <div class="form-control-feedback">{{ $errors->first('image') }}</div>
