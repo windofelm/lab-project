@@ -64,7 +64,7 @@
               <li> <a href="#"><i class="fa fa-google-plus"></i></a> </li>
             </ul>
           </div>
-          <div class="comments-info"> <a href="#"> <i class="fa fa-comment"></i> 0</a> </div>
+          <div class="comments-info"> <a href="#"> <i class="fa fa-comment"></i> {{$article->comments->count()}}</a> </div>
         </div>
         <div id="respond" class="comment-respond">
           <h2 id="reply-title" class="comment-reply-title">Post a comment</h2>
