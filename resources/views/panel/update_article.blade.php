@@ -69,6 +69,20 @@
         <div class="form-control-feedback">{{ $errors->first('image') }}</div>
     </div>
 
+    <div class="form-group {{ $errors->has('tags') ? 'has-danger' : '' }}">
+        <label>Article Tags</label>
+        <select multiple="true" name="tags[]" id="tagSelector" class="form-control select2" style="">
+            @foreach($tags as $tag)
+                @if(in_array($tag->id, $article->tagIds()->toArray()))
+                    <option selected value="{{$tag->name}}">{{$tag->name}}</option>
+                @else
+                    <option value="{{$tag->name}}">{{$tag->name}}</option>
+                @endif
+            @endforeach
+        </select>
+        <div class="form-control-feedback">{{ $errors->first('image') }}</div>
+    </div>
+
     <div class="form-check">
         <label class="form-check-label">
             <input {{($article->is_active) ? "checked" : ""}} type="checkbox" name="is_active" class="form-check-input">

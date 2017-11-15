@@ -130,8 +130,9 @@ class PanelController extends Controller
     {
         $article = Article::find($id);
         $categories = Category::all();
+        $tags = Tag::all();
 
-        return view("panel.update_article", compact("article", "categories"));
+        return view("panel.update_article", compact("article", "categories", "tags"));
     }
 
     public function postUpdate(Request $request, $id)
@@ -171,6 +172,31 @@ class PanelController extends Controller
             $article_category->article_id = $article->id;
             $article_category->category_id = $category;
             $article_category->save();
+        }
+
+        ////
+        foreach ($article->tags as $old_tag){
+
+            $article_tag = ArticleTag::where("article_id", $article->id)->where("tag_id", $old_tag->id)->first();
+            $article_tag->delete();
+        }
+
+        // Article tags
+        foreach ($request->tags as $tag_name){
+
+            $tag_slug = Str::slug($tag_name);
+            $tag = Tag::where("name", $tag_slug)->first();
+
+            if(is_null($tag)){
+                $tag = new Tag();
+                $tag->name = $tag_slug;
+                $tag->save();
+            }
+
+            $article_tag = new ArticleTag();
+            $article_tag->article_id = $article->id;
+            $article_tag->tag_id = $tag->id;
+            $article_tag->save();
         }
 
         return redirect()->route('articles');

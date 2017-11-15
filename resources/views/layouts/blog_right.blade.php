@@ -28,6 +28,10 @@
     </div>
     <div class="widget sidebar_widget widget_tag_cloud">
         <h4 class="widget-title">ETİKETLER</h4>
-        <div class="post-tags"> <a href="#">Design</a> <a href="#">Envato</a> <a href="#">Photography</a> <a href="#">Videos</a> <a href="#">Creative</a> <a href="#">Apps</a> </div>
+        <div class="post-tags">
+            @foreach($tags as $tag)
+                <a href="{{route('tag-articles', $tag->name)}}">{{$tag->name}}</a>
+            @endforeach
+        </div>
     </div>
 </div>

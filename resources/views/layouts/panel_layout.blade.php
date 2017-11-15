@@ -10,6 +10,8 @@
     </head>
     <title>@yield('page_title')</title>
     <link rel="stylesheet" href="{{asset('bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-beta.3/css/select2.min.css">
+
     <link rel="stylesheet" href="{{asset('css/panel.css')}}">
 
     <script type="application/javascript" src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
@@ -51,5 +53,25 @@
     </div>
 
     <script type="application/javascript" src="{{asset('bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-beta.3/js/select2.min.js"></script>
+    <script type="application/javascript">
+        $('.select2').select2({
+            tags: true,
+            tokenSeparators: [",", " "],
+            createTag: function (tag) {
+                return {
+                    id: tag.term,
+                    text: tag.term,
+                    isNew : true
+                };
+            }
+        }).on("select2:select", function(e) {
+            if(e.params.data.isNew){
+                $('#console').append('<code>New tag: {"' + e.params.data.id + '":"' + e.params.data.text + '"}</code><br>');
+                $(this).find('[value="'+e.params.data.id+'"]').replaceWith('<option selected value="'+e.params.data.id+'">'+e.params.data.text+'</option>');
+            }
+        });
+    </script>
+
 </body>
 </html>

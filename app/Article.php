@@ -16,11 +16,16 @@ class Article extends Model
 {
     protected $table = "articles";
 
-    protected static function boot()
-    {
-        parent::boot();
+//    protected static function boot()
+//    {
+//        parent::boot();
+//
+//        static::addGlobalScope(new ActiveScope());
+//    }
 
-        static::addGlobalScope(new ActiveScope());
+    public function scopeActive($query)
+    {
+        return $query->where('is_active', 1);
     }
 
     public function user()
@@ -51,5 +56,10 @@ class Article extends Model
     public function tags()
     {
         return $this->belongsToMany(Tag::class, 'article_tags');
+    }
+
+    public function tagIds()
+    {
+        return $this->belongsToMany(Tag::class, 'article_tags')->pluck('tag_id');
     }
 }

@@ -26,38 +26,37 @@ class FrontController extends Controller
         if($category_slug){
 
             $articles = Category::where("slug", $category_slug)->first()->articles()
-                ->orderBy("id", "DESC")->paginate(3);
+                ->orderBy("id", "DESC");
 
         }elseif ($request->month){
 
-            $articles = DB::table("articles")
-                ->whereMonth('created_at', '=', $request->month)
-                ->orderBy("id", "DESC")
-                ->paginate(3);
-
-            if(!$articles->total()){
-                return back()->with('error', 'Aradığınız ay girilmiş makale kaydı bulunamadı.');
-            }
+            $articles = Article::
+                whereMonth('created_at', '=', $request->month)
+                ->orderBy("id", "DESC");
 
         }elseif ($request->search) {
 
-            $articles = DB::table('articles')
-                ->where("title", "LIKE", "%".$request->search."%")
+            $articles = Article::where("title", "LIKE", "%".$request->search."%")
                 ->orWhere("body", "LIKE", "%".$request->search."%")
                 ->orWhere("seo_title", "LIKE", "%".$request->search."%")
                 ->orWhere("seo_description", "LIKE", "%".$request->search."%")
-                ->orderBy("id", "DESC")->paginate(3);
+                ->orderBy("id", "DESC");
 
             if(!$articles->total()){
                 return back()->with('error', 'Aradığınız ay girilmiş makale kaydı bulunamadı.');
             }
         }else{
 
-            $articles = DB::table('articles')->orderBy("id", "DESC")->paginate(3);
+            $articles = Article::orderBy("id", "DESC");
         }
 
+        $articles = $articles->active()->paginate(3);
 
-        return view('blog_list', ['articles' => $articles]);
+        if(!$articles->total()){
+            return back()->with('error', 'Aradığınız kriterlerde girilmiş makale kaydı bulunamadı.');
+        }
+
+        return view('blog_list', ['articles' => $articles, "tags" => Tag::all()]);
     }
 
     public function article($slug)
@@ -105,8 +104,12 @@ class FrontController extends Controller
     public function tagArticles($tag_slug)
     {
         $articles = Tag::where("name", $tag_slug)->first()->articles()
-            ->orderBy("id", "DESC")->paginate(3);
+            ->orderBy("id", "DESC")->active()->paginate(3);
 
-        return view('blog_list', ['articles' => $articles]);
+        if(!$articles->total()){
+            return back()->with('error', 'Aradığınız kriterlerde girilmiş makale kaydı bulunamadı.');
+        }
+
+        return view('blog_list', ['articles' => $articles, "tags" => Tag::all()]);
     }
 }
