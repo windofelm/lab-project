@@ -178,13 +178,21 @@ class PanelController extends Controller
 
     public function delete($id)
     {
+
         $article = Article::find($id);
-        $article->delete();
 
         foreach ($article->categories as $category){
             $article_category = ArticleCategory::where("article_id", $article->id)->where("category_id", $category->id)->first();
             $article_category->delete();
         }
+
+        foreach ($article->tags as $tag){
+
+            $article_tag = ArticleTag::where("article_id", $article->id)->where("tag_id", $tag->id)->first();
+            $article_tag->delete();
+        }
+
+        $article->delete();
 
         return redirect()->route("articles");
     }
