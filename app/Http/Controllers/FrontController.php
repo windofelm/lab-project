@@ -65,12 +65,13 @@ class FrontController extends Controller
         $index = count($ids) - 1;
 
         $article = Article::find($ids[$index]);
+        $tags = Tag::all();
 
         if(is_null($article)){
             return back()->with('error', 'Aradığınız makale bilgisine ulaşılamadı.');
         }
 
-        return view('blog_detail', ["article" => $article]);
+        return view('blog_detail', ["article" => $article, "tags" => $tags]);
     }
 
     public function comment(Request $request, $article_id)
