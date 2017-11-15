@@ -89,6 +89,20 @@
               {{csrf_field()}}
             </p>
           </form>
+
+          <br>
+          <div>
+            @foreach($article->comments as $comment)
+            <div class="article-comment">
+              <div class="info">
+                <span class="author">{{$comment->name}}</span>
+                <span class="date">{{\Carbon\Carbon::parse($comment->created_at)->format('d-m-Y H:i:s')}}</span>
+              </div>
+              <div class="content">{{$comment->comment}}</div>
+            </div>
+            @endforeach
+          </div>
+
         </div>
       </div>
       <!--=== Left Side End===-->

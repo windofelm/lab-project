@@ -50,7 +50,7 @@ class Article extends Model
 
     public function comments()
     {
-        return $this->hasMany(ArticleComment::class);
+        return $this->hasMany(ArticleComment::class)->orderBy('id', "DESC");
     }
 
     public function tags()

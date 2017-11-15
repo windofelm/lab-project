@@ -9,6 +9,7 @@
 <link rel="shortcut icon" href="{{asset('acron/assets/images/favicon.ico')}}">
 <link rel="stylesheet" href="{{asset('acron/assets/css/master.css')}}">
 <link rel="stylesheet" href="{{asset('acron/assets/css/responsive.css')}}">
+<link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body>
 
