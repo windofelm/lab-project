@@ -70,7 +70,7 @@
                     @endif
                 @endforeach
             </select>
-            <div class="form-control-feedback">{{ $errors->first('image') }}</div>
+            <div class="form-control-feedback">{{ $errors->first('tags') }}</div>
         </div>
 
         <div class="form-check">
