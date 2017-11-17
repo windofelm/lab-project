@@ -11,8 +11,8 @@ class CategoriesTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('categories')->insert(['category_name' => "Genel",]);
-        DB::table('categories')->insert(['category_name' => "PHP"]);
-        DB::table('categories')->insert(['category_name' => "Tasarım"]);
+        DB::table('categories')->insert(['category_name' => "Genel", 'slug' => 'genel']);
+        DB::table('categories')->insert(['category_name' => "PHP", 'slug' => 'php']);
+        DB::table('categories')->insert(['category_name' => "Tasarım", 'slug' => 'tasarim']);
     }
 }
