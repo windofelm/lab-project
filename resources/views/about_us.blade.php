@@ -9,8 +9,8 @@
   <section class="title-hero-bg about-cover-bg" data-stellar-background-ratio="0.2">
     <div class="container">
       <div class="page-title text-center white-color">
-        <h1>About Us</h1>
-        <h4 class="text-uppercase mt-30">Creative Digital Agency since 2004</h4>
+        <h1>Hakkımızda</h1>
+        <h4 class="text-uppercase mt-30">2014 'den beri Yazılım Geliştirme</h4>
       </div>
     </div>
   </section>
@@ -21,25 +21,25 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase">Who We Are</h2>
-          <h4 class="text-uppercase source-font">- The world at your fingertips -</h4>
+          <h2 class="text-uppercase">Biz Kimiz</h2>
+          <h4 class="text-uppercase source-font">- Dünya sizin parmaklarınızda.. -</h4>
           <div class="mt-30">
-            <p>We’re nuts about improving your business so we ensure that we track results from day one. Sure, we come up with great creative ideas that engage and captivate your customers, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut magna ultricies pellentesque. </p>
+            <p>Biz sizin için uğraşıyoruz. İşinizi geliştirmekle uğraşıyoruz.Bu yüzden ilk günden beri sonuçlarımızı takip ediyoruz ve sonuçlara göre işinizi yönlendiriyoruz. Müşterilerimize ilgilerini çeken ve büyüleyen mükemmel yaratıcı fikirler buluyoruz. Sizi en iyi çözüme kavuşturmak için tüm gücümüzle çalışıyoruz. Gücümüzü siz değerli müşterilerimizden alıyoruz.  </p>
           </div>
         </div>
       </div>
       <div class="row mt-50">
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-scale font-50px dark-icon"></i>
-          <h4 class="text-uppercase">STRATEGY</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+          <h4 class="text-uppercase">Stratejimiz</h4>
+          <p>İhtiyaca uygun en mükemmel, hızlı ve ekonomik çözüm üretmek.</p>
         </div>
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-chart-arc font-50px dark-icon"></i>
-          <h4 class="text-uppercase">CREATIVELY</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+          <h4 class="text-uppercase">Yaratıcılık</h4>
+          <p>Teknolojiyi yakından takip ediyoruz, size en yaratıcı ve son teknolojik çözümleri sunmayı taahhüt ediyoruz.</p>
         </div>
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-flask-outline font-50px dark-icon"></i>
-          <h4 class="text-uppercase">PRODUCTIVITY</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+          <h4 class="text-uppercase">Verimlilik</h4>
+          <p>Buraya bişey bulamadım bacanak :) :) :D .</p>
         </div>
       </div>
     </div>
@@ -53,8 +53,8 @@
     </div>
     <div class="container">
       <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
-        <h2 class="text-uppercase font-700">Our Skills</h2>
-        <h4 class="mt-10 line-height-26 source-font">We develop big ideas that sell.</h4>
+        <h2 class="text-uppercase font-700">Bildiklerimiz</h2>
+        <h4 class="mt-10 line-height-26 source-font">Büyük fikirler geliştiriyoruz.</h4>
         <div class="left-service-box pt-40 pb-20">
           <div class="progress-bar-title">UI/ UX Design</div>
           <div class="progress">
