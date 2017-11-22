@@ -20,10 +20,13 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
           <div class="hero-text-wrap">
             <div class="hero-text white-color">
               <div class="container text-center">
-                <h2 class="white-color text-uppercase font-400 letter-spacing-5">Experience</h2>
-                <h1 class="white-color text-uppercase font-700">The Wonder</h1>
-                <h3 class="white-color font-400">We put a premium on results-driven web design &amp; branding.</h3>
-                <p class="text-center mt-30"><a class="btn btn-white btn-circle btn-animate"><span>Start a Project <i class="mdi mdi-arrow-right"></i></span></a> </p>
+                <h3 class="white-color text-uppercase font-400 letter-spacing-5">Proje GelİşTİrme</h3>
+                <h2 class="white-color text-uppercase font-700">Web Uygulama & Web API</h2>
+                <h3 class="white-color font-400">Web uygulama geliştirme, süreç yönetimi ve danışmanlık hizmeti.</h3>
+                <p class="text-center mt-30">
+                  <a class="btn btn-white btn-circle btn-animate"><span>Projeyİ Başlat</span></a>
+                  <a class="btn btn-dark btn-circle btn-animate"><span>BİLGİ al</span></a>
+                </p>
               </div>
             </div>
           </div>
@@ -34,9 +37,9 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
           <div class="hero-text-wrap gradient-overlay-bg">
             <div class="hero-text">
               <div class="container text-center">
-                <h2 class="white-color text-uppercase font-400 letter-spacing-5">A Digital Marketing &amp;</h2>
-                <h1 class="white-color text-uppercase font-700">Design Agency</h1>
-                <p class="text-center mt-30"><a class="btn btn-dark btn-circle btn-animate"><span>Learn More <i class="mdi mdi-arrow-right"></i></span></a> <a class="btn btn-outline-white btn-circle">Contact Us</a> </p>
+                <h3 class="white-color text-uppercase font-400 letter-spacing-5">Dİjİtal Pazarlama &amp;</h3>
+                <h2 class="white-color text-uppercase font-700">Pazarlama Odaklı Seo</h2>
+                <p class="text-center mt-30"><a class="btn btn-dark btn-circle btn-animate"><span>Daha Fazla <i class="mdi mdi-arrow-right"></i></span></a> <a href="{{route('contact')}}" class="btn btn-outline-white btn-circle">İLETİŞİME Geç</a> </p>
               </div>
             </div>
           </div>
@@ -47,10 +50,10 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
           <div class="hero-text-wrap">
             <div class="hero-text">
               <div class="container text-center">
-                <h2 class="white-color text-uppercase font-400 letter-spacing-5">Minimal</h2>
-                <h1 class="white-color text-uppercase font-700">Clean &amp; Simple</h1>
-                <h3 class="white-color font-400">We love the web and the work we do.</h3>
-                <p class="text-center mt-30"><a class="btn btn-color btn-circle">See Our Work</a> </p>
+                <h3 class="white-color text-uppercase font-400 letter-spacing-5">Bahsedİn</h3>
+                <h2 class="white-color text-uppercase font-700">TEMİZ &amp; BASİT</h2>
+                <h3 class="white-color font-400">Hepsine değil yapmamız gerekene odaklı çalışırız.</h3>
+                <p class="text-center mt-30"><a class="btn btn-color btn-circle">Yaptıklarımızı Görün</a> </p>
               </div>
             </div>
           </div>
@@ -65,25 +68,25 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
     <div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Who We Are</h2>
-          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- The world at your fingertips -</h4>
+          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Neler Yaparız?</h2>
+          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Web uygulama GELİŞTİRME -</h4>
           <div class="mt-30 wow fadeTop" data-wow-delay="0.3s">
-            <p>We’re nuts about improving your business so we ensure that we track results from day one. Sure, we come up with great creative ideas that engage and captivate your customers, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut magna ultricies pellentesque. </p>
+            <p>Web uygulamanızı, projenizi, web sitelerinizi modern web uygulama geliştirme tekniklerini kulanarak; hızlı, güvenilir ve seo uyumlu şekilde hayata geçiriyoruz. Sektörde yer aldığımız her günün bize kattığı tecrübeyi sizlere daha iyi hizmet vermek adına şekillendiriyoruz. </p>
           </div>
         </div>
       </div>
       <div class="row mt-50">
         <div class="col-md-4 feature-box text-center wow fadeTop" data-wow-delay="0.1s"> <i class="mdi mdi-scale font-50px dark-icon"></i>
-          <h4 class="text-uppercase">STRATEGY</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+          <h4 class="text-uppercase">STRATEJİ PLANLAMASI</h4>
+          <p>Proje üzerinde ihtiyaç planlaması yaparak, iş akışını(zaman) ve kaynak kullanımını ortaya koyarız.</p>
         </div>
         <div class="col-md-4 feature-box text-center wow fadeTop" data-wow-delay="0.2s"> <i class="mdi mdi-chart-arc font-50px dark-icon"></i>
-          <h4 class="text-uppercase">CREATIVELY</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+          <h4 class="text-uppercase">MODERN GELİŞTİRME</h4>
+          <p>Modern geliştirme araçlarını aktif olarak kullanarak projenin ömrüne katkıda bulunuyoruz.</p>
         </div>
         <div class="col-md-4 feature-box text-center wow fadeTop" data-wow-delay="0.3s"> <i class="mdi mdi-flask-outline font-50px dark-icon"></i>
-          <h4 class="text-uppercase">PRODUCTIVITY</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie.</p>
+          <h4 class="text-uppercase">YÜKSEK KULLANIŞLILIK</h4>
+          <p>Hedef kitle analizi sayesinde, uygun teknolojiler kullanılarak herşeye değil olması gerekene odaklanıyoruz.</p>
         </div>
       </div>
     </div>
@@ -96,10 +99,10 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
       <div class="row">
         <div class="portfolio-container text-center">
           <ul id="portfolio-filter" class="list-inline filter-transparent wow fadeTop" data-wow-delay="0.1s">
-            <li class="active" data-group="all">All</li>
-            <li data-group="design">Design</li>
-            <li data-group="web">Web</li>
-            <li data-group="branding">Branding</li>
+            <li class="active" data-group="all">Tamamı</li>
+            <li data-group="design">Tasarım</li>
+            <li data-group="web">Web Uygulama</li>
+            <li data-group="branding">Marka</li>
             <li data-group="print">Print</li>
           </ul>
           <ul id="portfolio-grid" class="three-column hover-two">
@@ -217,20 +220,20 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 counter text-center col-sm-6 wow fadeTop" data-wow-delay="0.1s"> <i class="mdi mdi-clock blue-icon font-30px"></i>
-          <h2 class="count white-color font-700">5600</h2>
-          <h3>Working Hours</h3>
+          <h2 class="count white-color font-700">3500</h2>
+          <h3>Çalışma Saati</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6 wow fadeTop" data-wow-delay="0.2s"> <i class="mdi mdi-emoticon blue-icon font-30px"></i>
           <h2 class="count white-color font-700">220</h2>
-          <h3>Happy Clients</h3>
+          <h3>Mutlu Müşteri</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6 wow fadeTop" data-wow-delay="0.3s"> <i class="mdi mdi-trophy-variant blue-icon font-30px"></i>
           <h2 class="count white-color font-700">108</h2>
-          <h3>Awwwards</h3>
+          <h3>Tebrikler</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6 wow fadeTop" data-wow-delay="0.4s"> <i class="mdi mdi-cup blue-icon font-30px"></i>
-          <h2 class="count white-color font-700">650</h2>
-          <h3>Projects a Year</h3>
+          <h2 class="count white-color font-700">86</h2>
+          <h3>Yıllık Geliştirme</h3>
         </div>
       </div>
     </div>
@@ -242,8 +245,8 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
     <div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Meet Our Team</h2>
-          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- We Are Stronger -</h4>
+          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Bize Katılın</h2>
+          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Uzmanlarımız / Alan -</h4>
         </div>
       </div>
       <div class="row mt-50">
@@ -271,7 +274,7 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
               <div class="member-description text-center">
                 <div class="member-description-wrap">
                   <h4 class="member-title">Lynda Stone</h4>
-                  <p class="member-subtitle">Photographer</p>
+                  <p class="member-subtitle">Front-End Developer</p>
                   <ul class="member-icons">
                     <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -329,8 +332,8 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
     <div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Testimonials</h2>
-          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Statisfy Clients -</h4>
+          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Ne DedİLER</h2>
+          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Bazı MüşerİLER -</h4>
         </div>
       </div>
       <div class="row">
@@ -372,85 +375,25 @@ Teknoloji, Web Yazılım Alanında Yeni Adresiniz
     <div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Our Blogs</h2>
-          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Latest News -</h4>
+          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Blog GÖNDERİLERİ</h2>
+          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Son Yayınlar -</h4>
         </div>
       </div>
       <div class="row mt-50">
         <div class="col-md-12 remove-padding">
           <div class="owl-carousel blog-slider">
+
+            @foreach($articles as $article)
             <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-01.jpg" alt=""/> </div>
+              <div class="post-img"> <img class="img-responsive" src="{{$article->image}}" alt=""/> </div>
               <div class="post-info">
-                <h3><a href="blog-grid.html">It's Like Dating Entertainment</a></h3>
-                <h6>April 28, 2017</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
+                <h3><a href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}">{{$article->title}}</a></h3>
+                <h6>Tarih: {{\Illuminate\Support\Carbon::parse($article->created_at)->format("d-m-Y")}}</h6>
+                <p>{{\Illuminate\Support\Str::words(strip_tags($article->body), 20, "...")}}</p>
+                <a class="readmore" href="{{route('blogarticle', \Illuminate\Support\Str::slug($article->title)."-".$article->id)}}"><span>Daha Fazla</span></a> </div>
             </div>
             <!--=== Post End ===-->
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-02.jpg" alt=""/> </div>
-              <div class="post-info">
-                <h3><a href="blog-grid.html">Out of The Ruins</a></h3>
-                <h6>May 9, 2015</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-            <!--=== Post End ===-->
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-03.jpg" alt=""/> </div>
-              <div class="post-info">
-                <h3><a href="blog-grid.html">Ultimate Revelation Of Nature</a></h3>
-                <h6>November 18, 2016</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-            <!--=== Post End ===-->
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-04.jpg" alt=""/> </div>
-              <div class="post-info">
-                <h3><a href="blog-grid.html">Woman Lifestyle</a></h3>
-                <h6>Febaury 7, 2017</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-            <!--=== Post End ===-->
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-05.jpg" alt=""/> </div>
-              <div class="post-info">
-                <h3><a href="blog-grid.html">Photography Techniques</a></h3>
-                <h6>June 20, 2016</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-            <!--=== Post End ===-->
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-06.jpg" alt=""/> </div>
-              <div class="post-info">
-                <h3><a href="blog-grid.html">Last Weekend at Wooden House</a></h3>
-                <h6>July 30, 2014</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-            <!--=== Post End ===-->
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-07.jpg" alt=""/> </div>
-              <div class="post-info">
-                <h3><a href="blog-grid.html">Immortalizing Ideas</a></h3>
-                <h6>September 25, 2016</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-            <!--=== Post End ===-->
-            <div class="post">
-              <div class="post-img"> <img class="img-responsive" src="acron/assets/images/post/post-08.jpg" alt=""/> </div>
-              <div class="post-info">
-                <h3><a href="blog-grid.html">How to Take a Picture</a></h3>
-                <h6>October 16, 2010</h6>
-                <p>Curabitur quis faucibus odio, nec accumsan erat. Duis id ante convallis magna mattis pulvinar eu ut ipsum. Donec at leo id tortor mattis tempus...</p>
-                <a class="readmore" href="#"><span>Read More</span></a> </div>
-            </div>
-            <!--=== Post End ===-->
+            @endforeach
           </div>
         </div>
       </div>

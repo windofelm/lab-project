@@ -24,9 +24,7 @@ Route::get('/services', function () {
     return view('services');
 })->name('services');
 
-Route::get('/', function () {
-    return view('index');
-})->name('main');
+Route::get('/', 'FrontController@index')->name('main');
 
 Route::get('/contact', function () {
     return view('contact');

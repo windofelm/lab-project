@@ -20,6 +20,14 @@ use Illuminate\Support\Str;
 
 class FrontController extends Controller
 {
+    public function index()
+    {
+
+        $articles = Article::orderBy("id", "DESC")->active()->take(9)->get();
+
+        return view('index', ['articles' => $articles]);
+    }
+
     public function articles(Request $request, $category_slug = null)
     {
 

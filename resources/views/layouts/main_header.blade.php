@@ -14,8 +14,8 @@
     <!--=== Start Top Search ===-->
     <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="mdi mdi-close"></i></a>
       <div id="fullscreen-search-wrapper">
-        <form method="get" id="fullscreen-searchform">
-          <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input" class="search-bar-top">
+        <form method="get" id="fullscreen-searchform" action="{{route('blog-articles')}}">
+          <input type="text" value="" name="search" placeholder="Yazın ve arayın (enter)..." id="fullscreen-search-input" class="search-bar-top">
           <i class="mdi mdi-magnify fullscreen-search-icon">
           <input value="" type="submit">
           </i>
