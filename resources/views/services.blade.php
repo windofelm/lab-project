@@ -1,6 +1,6 @@
 @extends('layouts.main_layout')
 
-@section('title', 'Services - Cevizlab')
+@section('title', 'Hizmetlerimiz - Cevizlab')
 @section('content')
 @include('layouts.main_header')
 
@@ -8,8 +8,8 @@
   <section class="title-hero-bg service-cover-bg" data-stellar-background-ratio="0.2">
     <div class="container">
       <div class="page-title text-center">
-        <h1>Service Simple</h1>
-        <h4 class="text-uppercase mt-30 white-color">Ideas that soar</h4>
+        <h1>Hizmetlerimiz</h1>
+        <h4 class="text-uppercase mt-30 white-color">Yaratıcı Fikirler</h4>
       </div>
     </div>
   </section>
@@ -22,22 +22,22 @@
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
           <div class="pull-left"><i class="mdi mdi-gnome font-50px blue-icon"></i></div>
           <div class="pull-right">
-            <h5 class="mt-0">Brand Design</h5>
-            <p>Designing a good website that accommodates a lot of content is a tricky balancing act to pull off.</p>
+            <h5 class="mt-0">Marka Tasarımı</h5>
+            <p>Markanızın içeriğini barındıran iyi bir web sitesi tasarlamak, zorlu bir yolda sizi güçlendirecektir..</p>
           </div>
         </div>
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
           <div class="pull-left"><i class="mdi mdi-apps font-50px blue-icon"></i></div>
           <div class="pull-right">
-            <h5 class="mt-0">App Development</h5>
-            <p>We build mobile apps for the conference, integrating unique content and branding to create.</p>
+            <h5 class="mt-0">Uygulama Geliştirme</h5>
+            <p>İstekleriniz doğrultusunda Masaüstü, Web ve Mobil uygulamalar geliştiriyoruz. </p>
           </div>
         </div>
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
           <div class="pull-left"><i class="mdi mdi-lightbulb-on font-50px blue-icon"></i></div>
           <div class="pull-right">
-            <h5 class="mt-0">Digital Marketing</h5>
-            <p>Google has made this important since 1998 when it launched. Content became, and still is king since websites.</p>
+            <h5 class="mt-0">Dijital Pazarlama</h5>
+            <p>3-4 yıldır giderek artan bir pazar oldu. Pazar payınızı internet ortanında kat kat artırabilirsiniz.</p>
           </div>
         </div>
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">

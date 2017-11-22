@@ -56,25 +56,25 @@
         <h2 class="text-uppercase font-700">Bildiklerimiz</h2>
         <h4 class="mt-10 line-height-26 source-font">Büyük fikirler geliştiriyoruz.</h4>
         <div class="left-service-box pt-40 pb-20">
-          <div class="progress-bar-title">UI/ UX Design</div>
+          <div class="progress-bar-title">SEO (Search Engine Optimization)</div>
           <div class="progress">
             <div class="progress-bar" data-width="80"> <span>80%</span> </div>
           </div>
-          <div class="progress-bar-title">Web Development</div>
+          <div class="progress-bar-title">Web Tasarım ve Geliştirme</div>
           <div class="progress">
-            <div class="progress-bar" data-width="55"> <span>55%</span> </div>
+            <div class="progress-bar" data-width="90"> <span>90%</span> </div>
           </div>
           <div class="progress-bar-title">jQuery</div>
           <div class="progress">
             <div class="progress-bar" data-width="75"> <span>75%</span> </div>
           </div>
-          <div class="progress-bar-title">Branding</div>
+          <div class="progress-bar-title">Veritabanı Yönetim Sistemleri(MSSQL, MYSQL...)</div>
           <div class="progress">
-            <div class="progress-bar" data-width="99"> <span>99%</span> </div>
+            <div class="progress-bar" data-width="80"> <span>80%</span> </div>
           </div>
-          <div class="progress-bar-title">App Development</div>
+          <div class="progress-bar-title">PHP VE .NET İle Uygulama Geliştirme </div>
           <div class="progress">
-            <div class="progress-bar" data-width="48"> <span>48%</span> </div>
+            <div class="progress-bar" data-width="85"> <span>85%</span> </div>
           </div>
         </div>
       </div>
@@ -88,11 +88,11 @@
       <div class="row">
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-clock blue-icon font-30px"></i>
           <h2 class="count white-color font-700">5600</h2>
-          <h3>Working Hours</h3>
+          <h3>Toplam Çalışma Saati</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-emoticon blue-icon font-30px"></i>
           <h2 class="count white-color font-700">220</h2>
-          <h3>Happy Clients</h3>
+          <h3>Mutlu Müşteriler</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-trophy-variant blue-icon font-30px"></i>
           <h2 class="count white-color font-700">108</h2>
@@ -100,7 +100,7 @@
         </div>
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-cup blue-icon font-30px"></i>
           <h2 class="count white-color font-700">650</h2>
-          <h3>Projects a Year</h3>
+          <h3>Proje</h3>
         </div>
       </div>
     </div>
@@ -114,11 +114,11 @@
     </div>
     <div class="container">
       <div class="col-md-5 col-sm-7">
-        <h2 class="text-uppercase font-700">About Us</h2>
-        <h4 class="mt-10 line-height-26 source-font">Part of your success.</h4>
-        <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac vulputate dolor. Nullam venenatis enim in quam euismod fringilla. Donec in risus eget purus mattis varius. Nulla dapibus quis orci et tincidunt. Phasellus in rhoncus quam. Fusce a est lacinia, ultricies mi nec, rutrum dolor.</p>
-        <p>Donec vehicula cursus metus viverra aliquet. Nam vel malesuada diam. Proin eleifend luctus mi, vel tincidunt sapien auctor nec. In quis elit in mauris dignissim pharetra. Praesent efficitur dolor a quam tristique ultricies.</p>
-        <p class="mt-30"><a class="btn btn-color btn-circle">Read more</a></p>
+        <h2 class="text-uppercase font-700">Ceviz Lab</h2>
+        <h4 class="mt-10 line-height-26 source-font">Başarının bir parçası.</h4>
+        <p class="mt-20">Başarı deyince herkesin kafasında farklı şeyler belirir. Genelde çevremizde başarı; iyi gelir getiren bir iş, büyük ve modern pahalı eşyalarla döşenmiş bir ev, lüks bir arabadır. Aslında bunlar başarılı olmanın tanımı değildir.</p>
+        <p>Başarmak, insanın içindeki mücadele gücüdür. Hedefinize ulaşma çabasıdır. Ceviz Lab olarak her zaman başarmak için hedefimize kilitlenip, var olan gücümüzle çalışıyoruz.</p>
+        <p class="mt-30"><a href="{{route('contact')}}"class="btn btn-color btn-circle">Başarı ile Tanışın!</a></p>
       </div>
     </div>
   </section>
@@ -129,13 +129,13 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase font-700">Meet Our Team</h2>
-          <h4 class="mt-10 line-height-26 source-font">- We Are Stronger -</h4>
+          <h2 class="text-uppercase font-700">Takımımız</h2>
+          <h4 class="mt-10 line-height-26 source-font">- Güçlüyüz -</h4>
         </div>
       </div>
       <div class="row mt-50">
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="{{asset('acron/assets/images/team/team-01.jpg')}}" class="img-responsive" alt="team-01">
+          <!--<div class="team-member-container gallery-image-hover"> <img src="{{asset('acron/assets/images/team/team-01.jpg')}}" class="img-responsive" alt="team-01">
             <div class="member-caption">
               <div class="member-description text-center">
                 <div class="member-description-wrap">
@@ -149,16 +149,16 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
         <!--=== Member End ===-->
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="{{asset('acron/assets/images/team/team-02.jpg')}}" class="img-responsive" alt="team-02">
+          <div class="team-member-container gallery-image-hover"> <img src="{{asset('https://pbs.twimg.com/profile_images/919346817824886784/MHlR6ytE_400x400.jpg')}}" class="img-responsive" alt="team-02">
             <div class="member-caption">
               <div class="member-description text-center">
                 <div class="member-description-wrap">
-                  <h4 class="member-title">Lynda Stone</h4>
-                  <p class="member-subtitle">Photographer</p>
+                  <h4 class="member-title">Mesut Çtr</h4>
+                  <p class="member-subtitle">Software Developer</p>
                   <ul class="member-icons">
                     <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -171,12 +171,12 @@
         </div>
         <!--=== Member End ===-->
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="{{asset('acron/assets/images/team/team-03.jpg')}}" class="img-responsive" alt="team-03">
+          <div class="team-member-container gallery-image-hover"> <img src="{{asset('https://pbs.twimg.com/profile_images/669887859940311040/s9HEYrdz_400x400.png')}}" class="img-responsive" alt="team-03">
             <div class="member-caption">
               <div class="member-description text-center">
                 <div class="member-description-wrap">
-                  <h4 class="member-title">Karl Casey</h4>
-                  <p class="member-subtitle">Web Developer</p>
+                  <h4 class="member-title">Recep Hıdır</h4>
+                  <p class="member-subtitle">Software Developer</p>
                   <ul class="member-icons">
                     <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -189,7 +189,7 @@
         </div>
         <!--=== Member End ===-->
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="{{asset('acron/assets/images/team/team-04.jpg')}}" class="img-responsive" alt="team-04">
+          <!--<div class="team-member-container gallery-image-hover"> <img src="{{asset('acron/assets/images/team/team-04.jpg')}}" class="img-responsive" alt="team-04">
             <div class="member-caption">
               <div class="member-description text-center">
                 <div class="member-description-wrap">
@@ -203,7 +203,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
         <!--=== Member End ===-->
       </div>
