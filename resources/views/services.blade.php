@@ -37,7 +37,7 @@
           <div class="pull-left"><i class="mdi mdi-lightbulb-on font-50px blue-icon"></i></div>
           <div class="pull-right">
             <h5 class="mt-0">Dijital Pazarlama</h5>
-            <p>3-4 yıldır giderek artan bir pazar oldu. Pazar payınızı internet ortanında kat kat artırabilirsiniz.</p>
+            <p>3-4 yıldır giderek artan bir pazar oldu. Pazar payınızı internet ortamında kat kat artırabilirsiniz.</p>
           </div>
         </div>
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">

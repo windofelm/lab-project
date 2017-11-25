@@ -24,7 +24,7 @@
           <h2 class="text-uppercase">Biz Kimiz</h2>
           <h4 class="text-uppercase source-font">- Dünya sizin parmaklarınızda.. -</h4>
           <div class="mt-30">
-            <p>Biz sizin için uğraşıyoruz. İşinizi geliştirmekle uğraşıyoruz.Bu yüzden ilk günden beri sonuçlarımızı takip ediyoruz ve sonuçlara göre işinizi yönlendiriyoruz. Müşterilerimize ilgilerini çeken ve büyüleyen mükemmel yaratıcı fikirler buluyoruz. Sizi en iyi çözüme kavuşturmak için tüm gücümüzle çalışıyoruz. Gücümüzü siz değerli müşterilerimizden alıyoruz.  </p>
+            <p>Biz sizin için uğraşıyoruz. İşinizi geliştirmekle uğraşıyoruz.Bu yüzden ilk günden beri sonuçlarımızı takip ediyoruz ve sonuçlara göre işinizi yönlendiriyoruz. Müşterilerimizin projelerini geliştiriyor ve değer katıyoruz. Sizi en iyi çözüme kavuşturmak için tüm gücümüzle çalışıyoruz. Gücümüzü siz değerli müşterilerimizden alıyoruz.  </p>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
         </div>
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-chart-arc font-50px dark-icon"></i>
           <h4 class="text-uppercase">Yaratıcılık</h4>
-          <p>Teknolojiyi yakından takip ediyoruz, size en yaratıcı ve son teknolojik çözümleri sunmayı taahhüt ediyoruz.</p>
+          <p>Teknolojiyi yakından takip ediyoruz, size en yaratıcı ve teknolojik çözümleri sunmayı taahhüt ediyoruz.</p>
         </div>
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-flask-outline font-50px dark-icon"></i>
           <h4 class="text-uppercase">Verimlilik</h4>
