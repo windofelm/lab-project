@@ -24,18 +24,18 @@
           <h2 class="text-uppercase">Biz Kimiz</h2>
           <h4 class="text-uppercase source-font">- Dünya sizin parmaklarınızda.. -</h4>
           <div class="mt-30">
-            <p>Biz sizin için uğraşıyoruz. İşinizi geliştirmekle uğraşıyoruz.Bu yüzden ilk günden beri sonuçlarımızı takip ediyoruz ve sonuçlara göre işinizi yönlendiriyoruz. Müşterilerimizin projelerini geliştiriyor ve değer katıyoruz. Sizi en iyi çözüme kavuşturmak için tüm gücümüzle çalışıyoruz. Gücümüzü siz değerli müşterilerimizden alıyoruz.  </p>
+            <p>İşimizde en iyisi olmak istikametinde emin adımlarla yürüyoruz. Bu yüzden ilk günden beri geribildirimleri özenle takip ediyoruz ve sonuçlara göre yetkinliklerimize yön veriyoruz. Müşterilerimizin projelerini geliştiriyor ve değer katıyoruz. Sizi en iyi çözüme kavuşturmak için tüm gücümüzle çalışıyoruz. Gücümüzü siz değerli müşterilerimizden alıyoruz.  </p>
           </div>
         </div>
       </div>
       <div class="row mt-50">
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-scale font-50px dark-icon"></i>
           <h4 class="text-uppercase">Stratejimiz</h4>
-          <p>İhtiyaca uygun en mükemmel, hızlı ve ekonomik çözüm üretmek.</p>
+          <p>İhtiyaca odaklı, mükemmel, hızlı ve ekonomik çözüm üretmek.</p>
         </div>
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-chart-arc font-50px dark-icon"></i>
           <h4 class="text-uppercase">Yaratıcılık</h4>
-          <p>Teknolojiyi yakından takip ediyoruz, size en yaratıcı ve teknolojik çözümleri sunmayı taahhüt ediyoruz.</p>
+          <p>Teknolojiyi yakından takip ediyoruz, projenize en uygun teknolojiyi sunmayı taahhüt ediyoruz.</p>
         </div>
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-flask-outline font-50px dark-icon"></i>
           <h4 class="text-uppercase">Verimlilik</h4>
@@ -54,19 +54,19 @@
     <div class="container">
       <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
         <h2 class="text-uppercase font-700">YETKİNLİKLERİMİZ</h2>
-        <h4 class="mt-10 line-height-26 source-font">Büyük fikirler geliştiriyoruz.</h4>
+        <h4 class="mt-10 line-height-26 source-font">Kullandığımız, fikirlerde hayat bulan teknolojiler.</h4>
         <div class="left-service-box pt-40 pb-20">
           <div class="progress-bar-title">SEO (Search Engine Optimization)</div>
           <div class="progress">
             <div class="progress-bar" data-width="80"> <span>80%</span> </div>
           </div>
-          <div class="progress-bar-title">Web Tasarım ve Geliştirme</div>
+          <div class="progress-bar-title">Web Tasarım ve Uygulama Geliştirme</div>
           <div class="progress">
             <div class="progress-bar" data-width="90"> <span>90%</span> </div>
           </div>
-          <div class="progress-bar-title">jQuery</div>
+          <div class="progress-bar-title">AngularJS, Vue.JS, jQuery</div>
           <div class="progress">
-            <div class="progress-bar" data-width="75"> <span>75%</span> </div>
+            <div class="progress-bar" data-width="95"> <span>95%</span> </div>
           </div>
           <div class="progress-bar-title">Veritabanı Yönetim Sistemleri(MSSQL, MYSQL...)</div>
           <div class="progress">
@@ -75,6 +75,10 @@
           <div class="progress-bar-title">PHP VE .NET İle Uygulama Geliştirme </div>
           <div class="progress">
             <div class="progress-bar" data-width="85"> <span>85%</span> </div>
+          </div>
+          <div class="progress-bar-title">WebAPI, RESTfull </div>
+          <div class="progress">
+            <div class="progress-bar" data-width="80"> <span>80%</span> </div>
           </div>
         </div>
       </div>
