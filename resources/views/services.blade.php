@@ -43,22 +43,22 @@
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
           <div class="pull-left"><i class="mdi mdi-owl font-50px blue-icon"></i></div>
           <div class="pull-right">
-            <h5 class="mt-0">Unique Ideas</h5>
-            <p>Designing a good website that accommodates a lot of content is a tricky balancing act to pull off.</p>
+            <h5 class="mt-0">Size Özel Fikirler</h5>
+            <p>Size özel tasarım yapılmış bir web sitesi veya uygulama ile rakiplerinizden bir adım önde olabilirsiniz.</p>
           </div>
         </div>
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
           <div class="pull-left"><i class="mdi mdi-border-color font-50px blue-icon"></i></div>
           <div class="pull-right">
-            <h5 class="mt-0">Easy Customization</h5>
-            <p>We build mobile apps for the conference, integrating unique content and branding to create.</p>
+            <h5 class="mt-0">Modern Geliştirme</h5>
+            <p>Modern geliştirme araçlarını aktif olarak kullanarak projenin ömrüne katkıda bulunuyoruz.</p>
           </div>
         </div>
         <div class="col-md-4 feature-box text-left mb-50 col-sm-6">
           <div class="pull-left"><i class="mdi mdi-screen-rotation font-50px blue-icon"></i></div>
           <div class="pull-right">
-            <h5 class="mt-0">Fully Responsive</h5>
-            <p>Google has made this important since 1998 when it launched. Content became, and still is king since websites.</p>
+            <h5 class="mt-0">Responsive Tasarımlar</h5>
+            <p>Responsive tasarımlar sayesinde uygulamanız her cihazda ve platformda stabil bir şekilde çalışacaktır.</p>
           </div>
         </div>
       </div>
@@ -71,8 +71,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase">Testimonials</h2>
-          <h4 class="text-uppercase source-font">- Statisfy Clients -</h4>
+          <h2 class="text-uppercase">Ne DEDİLER</h2>
+          <h4 class="text-uppercase source-font">- Bazı Müşteriler -</h4>
         </div>
       </div>
       <div class="row">

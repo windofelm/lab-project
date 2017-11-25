@@ -39,7 +39,7 @@
         </div>
         <div class="col-md-4 feature-box text-center"> <i class="mdi mdi-flask-outline font-50px dark-icon"></i>
           <h4 class="text-uppercase">Verimlilik</h4>
-          <p>Buraya bişey bulamadım bacanak :) :) :D .</p>
+          <p>Hedef kitle analizi sayesinde, uygun teknolojiler kullanarak olması gerekene odaklanıyoruz. Verimliliği artırıyoruz.</p>
         </div>
       </div>
     </div>
