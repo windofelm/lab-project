@@ -53,7 +53,7 @@
     </div>
     <div class="container">
       <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
-        <h2 class="text-uppercase font-700">Bildiklerimiz</h2>
+        <h2 class="text-uppercase font-700">YETKİNLİKLERİMİZ</h2>
         <h4 class="mt-10 line-height-26 source-font">Büyük fikirler geliştiriyoruz.</h4>
         <div class="left-service-box pt-40 pb-20">
           <div class="progress-bar-title">SEO (Search Engine Optimization)</div>
@@ -114,7 +114,7 @@
     </div>
     <div class="container">
       <div class="col-md-5 col-sm-7">
-        <h2 class="text-uppercase font-700">Ceviz Lab</h2>
+        <h2 class="text-uppercase font-700">Cevİz Lab</h2>
         <h4 class="mt-10 line-height-26 source-font">Başarının bir parçası.</h4>
         <p class="mt-20">Başarı deyince herkesin kafasında farklı şeyler belirir. Genelde çevremizde başarı; iyi gelir getiren bir iş, büyük ve modern pahalı eşyalarla döşenmiş bir ev, lüks bir arabadır. Aslında bunlar başarılı olmanın tanımı değildir.</p>
         <p>Başarmak, insanın içindeki mücadele gücüdür. Hedefinize ulaşma çabasıdır. Ceviz Lab olarak her zaman başarmak için hedefimize kilitlenip, var olan gücümüzle çalışıyoruz.</p>
