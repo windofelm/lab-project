@@ -1,6 +1,8 @@
 @extends('layouts.main_layout')
 
 @section('title', 'Hizmetlerimiz - Cevizlab')
+@section('meta_description', 'Bilişim sektöründeki yerimizi kalıcı hale getirmek adına yaptığımız işleri özenle teslim ediyoruz.')
+
 @section('content')
 @include('layouts.main_header')
 

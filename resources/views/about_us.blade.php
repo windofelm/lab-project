@@ -1,6 +1,7 @@
 @extends('layouts.main_layout')
 
-@section('title', 'About Us Cevizlab')
+@section('title', 'Cevizlab Hakkında Bilgi')
+@section('meta_description', 'Cevizlab php, asp.net mvc web uygulama geliştirme ve front-end teknolojileri alanındaki yetkinleri eşsiz çözümler sunar.')
 
 @section('content')
 @include('layouts.main_header')

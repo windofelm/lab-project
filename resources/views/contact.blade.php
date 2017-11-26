@@ -1,6 +1,8 @@
 @extends('layouts.main_layout')
 
 @section('title', 'İletişim - Cevizlab Technology')
+@section('meta_description', 'Bizimle iletişime geçerek projenizden bahsedebilir, detayları tarafımıza ileterek teklif isteyebilirsiniz.')
+
 @section('content')
 
 @include('layouts.main_header')

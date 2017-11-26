@@ -6,7 +6,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>@yield('title')</title>
 <meta name="description" content="@yield('meta_description')">
-<link rel="shortcut icon" href="{{asset('acron/assets/images/favicon.ico')}}">
+{{--<link rel="shortcut icon" href="{{asset('acron/assets/images/favicon.ico')}}">--}}
+<link rel="icon"
+      type="image/png"
+      href="{{asset('acron/assets/images/favicon.png')}}">
 <link rel="stylesheet" href="{{asset('acron/assets/css/master.css')}}">
 <link rel="stylesheet" href="{{asset('acron/assets/css/responsive.css')}}">
 <link rel="stylesheet" href="{{asset('css/style.css')}}">

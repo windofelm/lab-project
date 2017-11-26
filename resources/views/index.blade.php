@@ -1,10 +1,7 @@
 @extends('layouts.main_layout')
 
-@section('title')
-
-Teknoloji, Web Yazılım Alanında Yeni Adresiniz
-
-@endsection
+@section('title', 'Web Yazılım ve Uygulama Geliştirme')
+@section('meta_description', 'Web yazılım ve yygulama geliştirme alanında modern teknolojileri kullanarak projelirinize değer katıyoruz.')
 
 @section('content')
 
