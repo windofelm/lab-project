@@ -53,7 +53,7 @@
       <!--=== Start Header Navigation ===-->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
-        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="{{asset('img/logo47.png')}}" alt=""> <img class="logo logo-scrolled" src="{{asset('img/logo47.png')}}" alt=""> </a> </div>
+        <div class="logo"> <a href="{{route('main')}}"> <img class="logo logo-display" src="{{asset('img/logo47.png')}}" alt=""> <img class="logo logo-scrolled" src="{{asset('img/logo47.png')}}" alt=""> </a> </div>
       </div>
       <!--=== End Header Navigation ===-->
       
