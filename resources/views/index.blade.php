@@ -106,7 +106,7 @@
             <li class="portfolio-item wow fadeIn wow fadeIn" data-wow-delay="0.1s" data-groups='["all", "print", "branding"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
-                <img src="acron/assets/images/portfolio/grid/1.jpg" alt="">
+                <img src="{{asset('items/angular.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
                     <h3 class="portfolio-title">Business Cards</h3>
@@ -123,7 +123,7 @@
             <li class="portfolio-item wow fadeIn" data-wow-delay="0.2s" data-groups='["all", "branding", "web"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
-                <img src="acron/assets/images/portfolio/grid/2.jpg" alt="">
+                <img src="{{asset('items/gulp.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
                     <h3 class="portfolio-title">Magazine</h3>
@@ -140,7 +140,7 @@
             <li class="portfolio-item wow fadeIn" data-wow-delay="0.3s" data-groups='["all", "branding"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
-                <img src="acron/assets/images/portfolio/grid/3.jpg" alt="">
+                <img src="{{asset('items/vue.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
                     <h3 class="portfolio-title">Rabycad CD Design</h3>
@@ -157,7 +157,7 @@
             <li class="portfolio-item wow fadeIn" data-wow-delay="0.4s" data-groups='["all", "print", "design"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
-                <img src="acron/assets/images/portfolio/grid/4.jpg" alt="">
+                <img src="{{asset('items/php.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
                     <h3 class="portfolio-title">Micro Chips</h3>
@@ -174,7 +174,7 @@
             <li class="portfolio-item wow fadeIn" data-wow-delay="0.5s" data-groups='["all", "design"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
-                <img src="acron/assets/images/portfolio/grid/5.jpg" alt="">
+                <img src="{{asset('items/webpack.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
                     <h3 class="portfolio-title">Flyer</h3>
@@ -191,7 +191,7 @@
             <li class="portfolio-item wow fadeIn" data-wow-delay="0.6s" data-groups='["all", "design", "web"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
-                <img src="acron/assets/images/portfolio/grid/6.jpg" alt="">
+                <img src="{{asset('items/babel.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
                     <h3 class="portfolio-title">Flat Web Design</h3>
