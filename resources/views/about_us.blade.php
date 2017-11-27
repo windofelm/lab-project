@@ -92,20 +92,20 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-clock blue-icon font-30px"></i>
-          <h2 class="count white-color font-700">5600</h2>
-          <h3>Toplam Çalışma Saati</h3>
+          <h2 class="count white-color font-700">3500</h2>
+          <h3>Çalışma Saati</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-emoticon blue-icon font-30px"></i>
           <h2 class="count white-color font-700">220</h2>
-          <h3>Mutlu Müşteriler</h3>
+          <h3>Mutlu Müşteri</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-trophy-variant blue-icon font-30px"></i>
           <h2 class="count white-color font-700">108</h2>
-          <h3>Awwwards</h3>
+          <h3>Tebrikler</h3>
         </div>
         <div class="col-md-3 counter text-center col-sm-6"> <i class="mdi mdi-cup blue-icon font-30px"></i>
-          <h2 class="count white-color font-700">650</h2>
-          <h3>Proje</h3>
+          <h2 class="count white-color font-700">86</h2>
+          <h3>Yıllık Geliştirme</h3>
         </div>
       </div>
     </div>

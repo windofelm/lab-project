@@ -28,11 +28,11 @@
         <div class="col-about-left col-md-6 text-left">
           <h2 class="merriweather-font">İLetişimde Kalalım.</h2>
           <h4 class="text-uppercase source-font">Size çözüm olalım.</h4>
-          <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="mt-50">
+          <form name="contact-form" id="contact-form" action="" method="POST" class="mt-50">
             <div class="messages"></div>
             <div class="form-group">
               <label class="sr-only" for="name">İsminiz</label>
-              <input type="text" name="name" class="form-control" id="name" required="required" placeholder="İsminiz" data-error="Lütfen isminizi yazınız.">
+              <input type="text" name="fullname" class="form-control" id="name" required="required" placeholder="İsminiz" data-error="Lütfen isminizi yazınız.">
               <div class="help-block with-errors mt-20"></div>
             </div>
             <div class="form-group">
@@ -47,7 +47,7 @@
             </div>
             <div class="form-group">
               <label class="sr-only" for="message">Mesajınız</label>
-              <textarea name="message" class="form-control" id="message" rows="7" placeholder="Mesajınız" required data-error="Lütfen mesajınızı yazınız."></textarea>
+              <textarea name="message_content" class="form-control" id="message" rows="7" placeholder="Mesajınız" required data-error="Lütfen mesajınızı yazınız."></textarea>
               <div class="help-block with-errors mt-20"></div>
             </div>
             <button type="submit" name="submit" class="btn btn-color btn-circle">Mesaj Gönder</button>
