@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 namespace App\Http\Controllers;
 
+use App\Message;
 use Validator;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
