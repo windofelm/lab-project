@@ -51,6 +51,7 @@ Route::post('/upload', 'PanelController@upload');
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function () {
     Route::get('/', 'PanelController@index')->name('dashboard');
     Route::get('/articles', 'PanelController@articles')->name('articles');
+    Route::get('/messages', 'MessageController@messages')->name('messages');
     Route::get('/articles/add', 'PanelController@store')->name('article-store');
     Route::get('/articles/{id}', 'PanelController@show')->name("show-article");
     Route::post('/articles/add', 'PanelController@store');

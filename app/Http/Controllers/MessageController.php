@@ -61,7 +61,16 @@ class MessageController extends Controller
 	$message->save();
 
 	
-	return redirect()->route('contact');
+	return redirect()->route('contact')->with('success', 'Mesajınız gönderilmiştir. Teşekkür Ederiz.');
+    }
+    
+    public function messages()
+    {
+        $messages = Message::orderBy('id', 'ASC')->get();
+
+        return view('panel.messages', [
+            'messages' => $messages
+        ]);
     }
 
     /**

@@ -26,6 +26,11 @@
           <div id="myMap"></div>
         </div>
         <div class="col-about-left col-md-6 text-left">
+	@if ($message = Session::get('success'))
+		<div class="alert alert-success">
+		    <p>{{ $message }}</p>
+		</div>
+	    @endif
           <h2 class="merriweather-font">İLetişimde Kalalım.</h2>
           <h4 class="text-uppercase source-font">Size çözüm olalım.</h4>
           <form name="contact-form" id="contact-form" action="contact" method="post" class="mt-50">

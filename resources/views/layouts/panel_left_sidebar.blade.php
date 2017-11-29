@@ -3,6 +3,9 @@
         <a class="nav-link active" href="{{route('articles')}}">Articles</a>
     </li>
     <li class="nav-item">
+        <a class="nav-link" href="{{route('messages')}}">Messages</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="#">Categories</a>
     </li>
     <li class="nav-item dropdown">
