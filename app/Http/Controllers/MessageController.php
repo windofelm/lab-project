@@ -39,7 +39,7 @@ class MessageController extends Controller
      */
     public function store(Request $request)
     {
-	return redirect()->route('about-us');
+	//return redirect()->route('about-us');
 	
         $validator = Validator::make($request->all(), [
             "fullname" => "required",
@@ -50,7 +50,7 @@ class MessageController extends Controller
 
 	if($validator->fails()){
             return redirect()->back()->withErrors($validator)->withInput();
-        }
+    }
 	
 	$message = new Message();
 	$message->fullname = $request->fullname;

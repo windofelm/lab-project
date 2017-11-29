@@ -50,6 +50,7 @@
               <textarea name="message_content" class="form-control" id="message" rows="7" placeholder="Mesajınız" required data-error="Lütfen mesajınızı yazınız."></textarea>
               <div class="help-block with-errors mt-20"></div>
             </div>
+            {{csrf_field()}}
             <button type="submit" name="submit" class="btn btn-color btn-circle">Mesaj Gönder</button>
           </form>
         </div>
