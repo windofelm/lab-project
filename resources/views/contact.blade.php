@@ -28,7 +28,7 @@
         <div class="col-about-left col-md-6 text-left">
           <h2 class="merriweather-font">İLetişimde Kalalım.</h2>
           <h4 class="text-uppercase source-font">Size çözüm olalım.</h4>
-          <form name="contact-form" id="contact-form" action="" method="POST" class="mt-50">
+          <form name="contact-form" id="contact-form" action="contact" method="post" class="mt-50">
             <div class="messages"></div>
             <div class="form-group">
               <label class="sr-only" for="name">İsminiz</label>
@@ -111,7 +111,8 @@
     </div>
   </section>
   <!--=== Clients End ======-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChhYvVBA6-m-ZEEgvOhZ59MCuHusMOX0k&v=3.exp&sensor=false&callback=initialize"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv7LYRzyivt-k-4wMEENhy-cMR_KMO_8A"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChhYvVBA6-m-ZEEgvOhZ59MCuHusMOX0k&v=3.exp&sensor=false&callback=initialize"></script>-->
 @endsection
 
 

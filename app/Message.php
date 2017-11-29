@@ -13,5 +13,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Message extends Model
 {
-
+	protected $fillable = ['fullname','email', 'phone', 'message_content'];
+	protected $table = "messages";
 }

@@ -30,6 +30,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::post('contact', 'MessageController@store');
+
+
+
 Route::get('/blog/{category_slug?}', 'FrontController@articles')->name('blog-articles');
 Route::get('/detail/{slug}', 'FrontController@article')->name('blogarticle');
 Route::post('/comment/{article_id}', 'FrontController@comment')->name('post-comment');

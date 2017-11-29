@@ -222,4 +222,28 @@ class PanelController extends Controller
 
         return redirect()->route("articles");
     }
+
+    public function save_messages(Request $request)
+    {
+	$validator = Validator::make($request->all(), [
+            "fullname" => "required",
+            "email" => "required|email",
+            "phone" => "between:10,11",
+            "message_content" => "required"
+        ]);
+
+	if($validator->fails()){
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+	
+	$message = new Message();
+	$message->fullname = $request->fullname;
+	$message->email = $request->email;
+	$message->phone = $request->phone;
+	$message->message_content = $request->message_content;
+	$message->save();
+
+	
+	return redirect()->route('contact');
+    }
 }
