@@ -238,90 +238,90 @@
   <!--=== Counter End ===-->
   
   <!--=== Our Team Start ===-->
-  <section class="white-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Bize Katılın</h2>
-          <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Uzmanlarımız / Alan -</h4>
-        </div>
-      </div>
-      <div class="row mt-50">
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.3s">
-          <div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-01.jpg" class="img-responsive" alt="team-01">
-            <div class="member-caption">
-              <div class="member-description text-center">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">David Marks</h4>
-                  <p class="member-subtitle">UI/UX Designer</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===-->
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.4s">
-          <div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-02.jpg" class="img-responsive" alt="team-02">
-            <div class="member-caption">
-              <div class="member-description text-center">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">Lynda Stone</h4>
-                  <p class="member-subtitle">Front-End Developer</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===-->
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.5s">
-          <div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-03.jpg" class="img-responsive" alt="team-03">
-            <div class="member-caption">
-              <div class="member-description text-center">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">Karl Casey</h4>
-                  <p class="member-subtitle">Web Developer</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===-->
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.6s">
-          <div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-04.jpg" class="img-responsive" alt="team-04">
-            <div class="member-caption">
-              <div class="member-description text-center">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">Roland Buford</h4>
-                  <p class="member-subtitle">CEO/Founder</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===-->
-      </div>
-    </div>
-  </section>
+  {{--<section class="white-bg">--}}
+    {{--<div class="container">--}}
+      {{--<div class="row">--}}
+        {{--<div class="col-sm-8 section-heading">--}}
+          {{--<h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Bize Katılın</h2>--}}
+          {{--<h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Uzmanlarımız / Alan -</h4>--}}
+        {{--</div>--}}
+      {{--</div>--}}
+      {{--<div class="row mt-50">--}}
+        {{--<div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.3s">--}}
+          {{--<div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-01.jpg" class="img-responsive" alt="team-01">--}}
+            {{--<div class="member-caption">--}}
+              {{--<div class="member-description text-center">--}}
+                {{--<div class="member-description-wrap">--}}
+                  {{--<h4 class="member-title">David Marks</h4>--}}
+                  {{--<p class="member-subtitle">UI/UX Designer</p>--}}
+                  {{--<ul class="member-icons">--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>--}}
+                  {{--</ul>--}}
+                {{--</div>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!--=== Member End ===-->--}}
+        {{--<div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.4s">--}}
+          {{--<div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-02.jpg" class="img-responsive" alt="team-02">--}}
+            {{--<div class="member-caption">--}}
+              {{--<div class="member-description text-center">--}}
+                {{--<div class="member-description-wrap">--}}
+                  {{--<h4 class="member-title">Lynda Stone</h4>--}}
+                  {{--<p class="member-subtitle">Front-End Developer</p>--}}
+                  {{--<ul class="member-icons">--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>--}}
+                  {{--</ul>--}}
+                {{--</div>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!--=== Member End ===-->--}}
+        {{--<div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.5s">--}}
+          {{--<div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-03.jpg" class="img-responsive" alt="team-03">--}}
+            {{--<div class="member-caption">--}}
+              {{--<div class="member-description text-center">--}}
+                {{--<div class="member-description-wrap">--}}
+                  {{--<h4 class="member-title">Karl Casey</h4>--}}
+                  {{--<p class="member-subtitle">Web Developer</p>--}}
+                  {{--<ul class="member-icons">--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>--}}
+                  {{--</ul>--}}
+                {{--</div>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!--=== Member End ===-->--}}
+        {{--<div class="col-md-3 col-sm-6 col-xs-12 wow fadeTop" data-wow-delay="0.6s">--}}
+          {{--<div class="team-member-container gallery-image-hover"> <img src="acron/assets/images/team/team-04.jpg" class="img-responsive" alt="team-04">--}}
+            {{--<div class="member-caption">--}}
+              {{--<div class="member-description text-center">--}}
+                {{--<div class="member-description-wrap">--}}
+                  {{--<h4 class="member-title">Roland Buford</h4>--}}
+                  {{--<p class="member-subtitle">CEO/Founder</p>--}}
+                  {{--<ul class="member-icons">--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>--}}
+                    {{--<li class="social-icon"><a href="#"><i class="fa fa-youtube"></i></a></li>--}}
+                  {{--</ul>--}}
+                {{--</div>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!--=== Member End ===-->--}}
+      {{--</div>--}}
+    {{--</div>--}}
+  {{--</section>--}}
   <!--=== Our Team End ===-->
   
   <!--=== Testimonails Start ===-->
@@ -338,26 +338,18 @@
           <div class="slick testimonial">
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="acron/assets/images/team/avatar-1.jpg" alt="avatar-1"/>
-                <h5>Hank Dano</h5>
-                <p>Founder &amp; CEO of Arcon </p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="images/male.png" alt="avatar-1"/>
+                <h5>Ergin YILMAZ</h5>
+                <p>CA Proje Yöneticisi</p>
+                <h4>Web tabanlı uygulamamızın tüm süreçlerini cevizlab ekibiyle yürüttük ve nihayete kavuşturduk, temiz iş çıkardık.</h4>
               </div>
             </div>
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="acron/assets/images/team/avatar-2.jpg" alt="avatar-1"/>
-                <h5>Julia Banks</h5>
-                <p>CEO of Arcon</p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
-              </div>
-            </div>
-            <!--=== Slide ===-->
-            <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="acron/assets/images/team/avatar-3.jpg" alt="avatar-1"/>
-                <h5>Mark Smith</h5>
-                <p>CEO of Arcon</p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="images/female.png" alt="avatar-1"/>
+                <h5>Özge ERAYDIN</h5>
+                <p>DETA İş Geliştirme</p>
+                <h4>Web platformu için tüm ihtiyaçlarımızı profesyonel şekilde karşılayan bu ekibe teşekkürler. Güzel bir birlikte çalışma deneyimi oldu.</h4>
               </div>
             </div>
           </div>

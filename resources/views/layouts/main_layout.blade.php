@@ -27,15 +27,15 @@
           <div class="col-sm-6 col-md-4">
             <div class="widget widget-text">
               <div class="logo logo-footer"><a href="index.html"> <img class="logo logo-display" src="{{asset('img/logo47.png')}}" alt=""></a> </div>
-              <p>We’re nuts about improving your business so we ensure that we track results from day one. Sure, we come up with great creative ideas that engage and captivate your customers, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut magna ultricies pellentesque.</p>
+              <p>Web platformu altında çalışan tüm ihtiyaçlarınızı karşılamak için çalışıyroruz. Bu işi freelance olarak yapıyoruz, yıllardan aldığımız deneyim ile yolumuza emin adımlarla devam ediyoruz. </p>
             </div>
           </div>
           <div class="col-sm-6 col-md-2">
             <div class="widget widget-links">
               <h5 class="widget-title">Bizimle Çalışanlar</h5>
               <ul>
-                <li><a href="#">RECEP HIDIR</a></li>
-                <li><a href="#">MESUT ÇİTTİR</a></li>
+                <li><a href="#">DETA Danışmanlık</a></li>
+                <li><a href="#">CA Elegance</a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
                 
@@ -58,7 +58,7 @@
               <h5 class="widget-title">İletişim Bilgilerimiz</h5>
               <ul>
                 <li> <i class="mdi mdi-map-marker"></i> <a href="#">Sokullu, ANKARA</a> </li>
-                <li> <i class="mdi mdi-cellphone"></i> <a href="#">(0312) 555 2192</a> </li>
+                <li> <i class="mdi mdi-cellphone"></i> <a href="#">(0312) xxx xx xx</a> </li>
                 <li> <i class="mdi mdi-email"></i> <a href="#">info@cevizlab.com</a> </li>
                 <li> <i class="mdi mdi-web"></i> <a href="#">www.cevizlab.com</a> </li>
               </ul>
