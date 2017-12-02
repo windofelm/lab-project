@@ -97,109 +97,109 @@
         <div class="portfolio-container text-center">
           <ul id="portfolio-filter" class="list-inline filter-transparent wow fadeTop" data-wow-delay="0.1s">
             <li class="active" data-group="all">Tamamı</li>
+            <li data-group="front">Front-End</li>
+            <li data-group="back">Back-End</li>
+            <li data-group="tools">Araçlar</li>
             <li data-group="design">Tasarım</li>
-            <li data-group="web">Web Uygulama</li>
-            <li data-group="branding">Marka</li>
-            <li data-group="print">Print</li>
           </ul>
           <ul id="portfolio-grid" class="three-column hover-two">
-            <li class="portfolio-item wow fadeIn wow fadeIn" data-wow-delay="0.1s" data-groups='["all", "print", "branding"]'>
+            <li class="portfolio-item wow fadeIn wow fadeIn" data-wow-delay="0.1s" data-groups='["all", "front", "branding"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
                 <img src="{{asset('items/angular.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
-                    <h3 class="portfolio-title">Business Cards</h3>
-                    <a href="single-portfolio.html" class="links">Print Design</a> </div>
+                    <h3 class="portfolio-title">Front-End Framweork</h3>
+                    <a href="" class="links">AngularJS</a> </div>
                   <!--=== /.project-info ===-->
                   <ul class="portfolio-details">
-                    <li><a class="alpha-lightbox" href="acron/assets/images/portfolio/grid/1.jpg"><i class="fa fa-search"></i></a></li>
-                    <li><a href="single-portfolio.html"><i class="fa fa-link"></i></a></li>
+                    <li><a class="alpha-lightbox" href="{{asset('items/angular.png')}}"><i class="fa fa-search"></i></a></li>
+                    <li><a href=""><i class="fa fa-link"></i></a></li>
                   </ul>
                 </div>
               </div>
               <!--=== /.portfolio ===-->
             </li>
-            <li class="portfolio-item wow fadeIn" data-wow-delay="0.2s" data-groups='["all", "branding", "web"]'>
+            <li class="portfolio-item wow fadeIn" data-wow-delay="0.2s" data-groups='["all", "tools"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
                 <img src="{{asset('items/gulp.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
-                    <h3 class="portfolio-title">Magazine</h3>
-                    <a href="single-portfolio.html" class="links">Branding</a> </div>
+                    <h3 class="portfolio-title">Task Runner</h3>
+                    <a href="" class="links">Gulp</a> </div>
                   <!--=== /.project-info ===-->
                   <ul class="portfolio-details">
-                    <li><a class="alpha-lightbox" href="acron/assets/images/portfolio/grid/2.jpg"><i class="fa fa-search"></i></a></li>
-                    <li><a href="single-portfolio.html"><i class="fa fa-link"></i></a></li>
+                    <li><a class="alpha-lightbox" href="{{asset('items/gulp.png')}}"><i class="fa fa-search"></i></a></li>
+                    <li><a href=""><i class="fa fa-link"></i></a></li>
                   </ul>
                 </div>
               </div>
               <!--=== /.portfolio ===-->
             </li>
-            <li class="portfolio-item wow fadeIn" data-wow-delay="0.3s" data-groups='["all", "branding"]'>
+            <li class="portfolio-item wow fadeIn" data-wow-delay="0.3s" data-groups='["all", "front"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
                 <img src="{{asset('items/vue.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
-                    <h3 class="portfolio-title">Rabycad CD Design</h3>
-                    <a href="single-portfolio.html" class="links">Branding</a> </div>
+                    <h3 class="portfolio-title">Web Framework</h3>
+                    <a href="" class="links">Vue.js</a> </div>
                   <!--=== /.project-info ===-->
                   <ul class="portfolio-details">
-                    <li><a class="alpha-lightbox" href="acron/assets/images/portfolio/grid/3.jpg"><i class="fa fa-search"></i></a></li>
-                    <li><a href="single-portfolio.html"><i class="fa fa-link"></i></a></li>
+                    <li><a class="alpha-lightbox" href="{{asset('items/vue.png')}}"><i class="fa fa-search"></i></a></li>
+                    <li><a href=""><i class="fa fa-link"></i></a></li>
                   </ul>
                 </div>
               </div>
               <!--=== /.portfolio ===-->
             </li>
-            <li class="portfolio-item wow fadeIn" data-wow-delay="0.4s" data-groups='["all", "print", "design"]'>
+            <li class="portfolio-item wow fadeIn" data-wow-delay="0.4s" data-groups='["all", "back"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
                 <img src="{{asset('items/php.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
-                    <h3 class="portfolio-title">Micro Chips</h3>
-                    <a href="single-portfolio.html" class="links">Web Design</a> </div>
+                    <h3 class="portfolio-title">Back-End Language</h3>
+                    <a href="" class="links">PHP</a> </div>
                   <!--=== /.project-info ===-->
                   <ul class="portfolio-details">
-                    <li><a class="alpha-lightbox" href="acron/assets/images/portfolio/grid/4.jpg"><i class="fa fa-search"></i></a></li>
-                    <li><a href="single-portfolio.html"><i class="fa fa-link"></i></a></li>
+                    <li><a class="alpha-lightbox" href="{{asset('items/php.png')}}"><i class="fa fa-search"></i></a></li>
+                    <li><a href=""><i class="fa fa-link"></i></a></li>
                   </ul>
                 </div>
               </div>
               <!--=== /.portfolio ===-->
             </li>
-            <li class="portfolio-item wow fadeIn" data-wow-delay="0.5s" data-groups='["all", "design"]'>
+            <li class="portfolio-item wow fadeIn" data-wow-delay="0.5s" data-groups='["all", "tools"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
                 <img src="{{asset('items/webpack.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
-                    <h3 class="portfolio-title">Flyer</h3>
-                    <a href="single-portfolio.html" class="links">Print Design</a> </div>
+                    <h3 class="portfolio-title">Task Runner</h3>
+                    <a href="" class="links">Webpack</a> </div>
                   <!--=== /.project-info ===-->
                   <ul class="portfolio-details">
-                    <li><a class="alpha-lightbox" href="acron/assets/images/portfolio/grid/5.jpg"><i class="fa fa-search"></i></a></li>
-                    <li><a href="single-portfolio.html"><i class="fa fa-link"></i></a></li>
+                    <li><a class="alpha-lightbox" href="{{asset('items/webpack.png')}}"><i class="fa fa-search"></i></a></li>
+                    <li><a href=""><i class="fa fa-link"></i></a></li>
                   </ul>
                 </div>
               </div>
               <!--=== /.portfolio ===-->
             </li>
-            <li class="portfolio-item wow fadeIn" data-wow-delay="0.6s" data-groups='["all", "design", "web"]'>
+            <li class="portfolio-item wow fadeIn" data-wow-delay="0.6s" data-groups='["all", "tools"]'>
               <div class="portfolio gallery-image-hover">
                 <div class="dark-overlay"></div>
                 <img src="{{asset('items/babel.png')}}" alt="">
                 <div class="portfolio-wrap">
                   <div class="portfolio-description">
-                    <h3 class="portfolio-title">Flat Web Design</h3>
-                    <a href="single-portfolio.html" class="links">Web Design</a> </div>
+                    <h3 class="portfolio-title">Transpiler (ES6)</h3>
+                    <a href="" class="links">Babel.io</a> </div>
                   <!--=== /.project-info ===-->
                   <ul class="portfolio-details">
-                    <li><a class="alpha-lightbox" href="acron/assets/images/portfolio/grid/6.jpg"><i class="fa fa-search"></i></a></li>
-                    <li><a href="single-portfolio.html"><i class="fa fa-link"></i></a></li>
+                    <li><a class="alpha-lightbox" href="{{asset('items/babel.png')}}"><i class="fa fa-search"></i></a></li>
+                    <li><a href=""><i class="fa fa-link"></i></a></li>
                   </ul>
                 </div>
               </div>

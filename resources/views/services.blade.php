@@ -11,7 +11,7 @@
     <div class="container">
       <div class="page-title text-center">
         <h1>Hizmetlerimiz</h1>
-        <h4 class="text-uppercase mt-30 white-color">Yaratıcı Fikirler</h4>
+        <h4 class="text-uppercase mt-30 white-color">Web TEKNOLOJİLERİ</h4>
       </div>
     </div>
   </section>
@@ -67,49 +67,41 @@
     </div>
   </section>
   <!--=== Who We Are End ======-->
-  
-  <!--=== Testimonails Start ======-->
-  <section class="white-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase">Ne DEDİLER</h2>
-          <h4 class="text-uppercase source-font">- Bazı Müşteriler -</h4>
-        </div>
+
+<!--=== Testimonails Start ===-->
+<section class="white-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 section-heading">
+        <h2 class="text-uppercase wow fadeTop" data-wow-delay="0.1s">Ne DedİLER</h2>
+        <h4 class="text-uppercase source-font wow fadeTop" data-wow-delay="0.2s">- Bazı MüşerİLER -</h4>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="slick testimonial">
-            <!--=== Slide ===-->
-            <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-1.jpg')}}" alt="avatar-1"/>
-                <h5>Hank Dano</h5>
-                <p>Founder &amp; CEO of Arcon </p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
-              </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="slick testimonial">
+          <!--=== Slide ===-->
+          <div class="testimonial-item">
+            <div class="testimonial-content"> <img class="img-responsive img-circle" src="images/male.png" alt="avatar-1"/>
+              <h5>Ergin YILMAZ</h5>
+              <p>CA Proje Yöneticisi</p>
+              <h4>Web tabanlı uygulamamızın tüm süreçlerini cevizlab ekibiyle yürüttük ve nihayete kavuşturduk, temiz iş çıkardık.</h4>
             </div>
-            <!--=== Slide ===-->
-            <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-2.jpg')}}" alt="avatar-1"/>
-                <h5>Julia Banks</h5>
-                <p>CEO of Arcon</p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
-              </div>
-            </div>
-            <!--=== Slide ===-->
-            <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>
-                <h5>Mark Smith</h5>
-                <p>CEO of Arcon</p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
-              </div>
+          </div>
+          <!--=== Slide ===-->
+          <div class="testimonial-item">
+            <div class="testimonial-content"> <img class="img-responsive img-circle" src="images/female.png" alt="avatar-1"/>
+              <h5>Özge ERAYDIN</h5>
+              <p>DETA İş Geliştirme</p>
+              <h4>Web platformu için tüm ihtiyaçlarımızı profesyonel şekilde karşılayan bu ekibe teşekkürler. Güzel bir birlikte çalışma deneyimi oldu.</h4>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!--=== Testimonails End ======-->
+  </div>
+</section>
+<!--=== Testimonails End ===-->
   
   <!--=== Clients Start ======-->
   <section class="pt-50 pb-50">

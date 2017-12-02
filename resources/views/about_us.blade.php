@@ -11,7 +11,7 @@
     <div class="container">
       <div class="page-title text-center white-color">
         <h1>Hakkımızda</h1>
-        <h4 class="text-uppercase mt-30">2014 'den beri Yazılım Geliştirme</h4>
+        <h4 class="text-uppercase mt-30">2014 'den Bu Yana</h4>
       </div>
     </div>
   </section>
@@ -216,48 +216,48 @@
   </section>
   <!--=== Our Team End ======-->
   
-  <!--=== Testimonails Start ======-->
-  <section class="grey-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 section-heading">
-          <h2 class="text-uppercase font-700">Testimonials</h2>
-          <h4 class="mt-10 line-height-26 source-font">- Statisfy Clients -</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="slick testimonial">
-            <!--=== Slide ===-->
-            <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-1.jpg')}}" alt="avatar-1"/>
-                <h5>Hank Dano</h5>
-                <p>Founder &amp; CEO of Arcon </p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
-              </div>
-            </div>
-            <!--=== Slide ===-->
-            <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-2.jpg')}}" alt="avatar-1"/>
-                <h5>Julia Banks</h5>
-                <p>CEO of Arcon</p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
-              </div>
-            </div>
-            <!--=== Slide ===-->
-            <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>
-                <h5>Mark Smith</h5>
-                <p>CEO of Arcon</p>
-                <h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--=== Testimonails End ======-->
+  {{--<!--=== Testimonails Start ======-->--}}
+  {{--<section class="grey-bg">--}}
+    {{--<div class="container">--}}
+      {{--<div class="row">--}}
+        {{--<div class="col-sm-8 section-heading">--}}
+          {{--<h2 class="text-uppercase font-700">Testimonials</h2>--}}
+          {{--<h4 class="mt-10 line-height-26 source-font">- Statisfy Clients -</h4>--}}
+        {{--</div>--}}
+      {{--</div>--}}
+      {{--<div class="row">--}}
+        {{--<div class="col-md-12">--}}
+          {{--<div class="slick testimonial">--}}
+            {{--<!--=== Slide ===-->--}}
+            {{--<div class="testimonial-item">--}}
+              {{--<div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-1.jpg')}}" alt="avatar-1"/>--}}
+                {{--<h5>Hank Dano</h5>--}}
+                {{--<p>Founder &amp; CEO of Arcon </p>--}}
+                {{--<h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<!--=== Slide ===-->--}}
+            {{--<div class="testimonial-item">--}}
+              {{--<div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-2.jpg')}}" alt="avatar-1"/>--}}
+                {{--<h5>Julia Banks</h5>--}}
+                {{--<p>CEO of Arcon</p>--}}
+                {{--<h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<!--=== Slide ===-->--}}
+            {{--<div class="testimonial-item">--}}
+              {{--<div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('acron/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>--}}
+                {{--<h5>Mark Smith</h5>--}}
+                {{--<p>CEO of Arcon</p>--}}
+                {{--<h4>Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.</h4>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+      {{--</div>--}}
+    {{--</div>--}}
+  {{--</section>--}}
+  {{--<!--=== Testimonails End ======-->--}}
   
   <!--=== Clients Start ======-->
   <section class="pt-50 pb-50">

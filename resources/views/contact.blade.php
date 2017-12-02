@@ -31,8 +31,8 @@
 		    <p>{{ $message }}</p>
 		</div>
 	    @endif
-          <h2 class="merriweather-font">İLetişimde Kalalım.</h2>
-          <h4 class="text-uppercase source-font">Size çözüm olalım.</h4>
+          <h2 class="merriweather-font">İletişimde Kalalım.</h2>
+          <h4 class="text-uppercase source-font">Çözüm Sunalım</h4>
           <form name="contact-form" id="contact-form" action="contact" method="post" class="mt-50">
             <div class="messages"></div>
             <div class="form-group">
