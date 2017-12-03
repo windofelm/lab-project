@@ -13,6 +13,16 @@
 <link rel="stylesheet" href="{{asset('acron/assets/css/master.css')}}">
 <link rel="stylesheet" href="{{asset('acron/assets/css/responsive.css')}}">
 <link rel="stylesheet" href="{{asset('css/style.css')}}">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110579981-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110579981-1');
+</script>
+
 </head>
 <body>
 
