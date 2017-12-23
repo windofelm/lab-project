@@ -19,7 +19,6 @@ Route::get('/ex', function () {
     ];
 
     dd(json_encode($arr));
-    
 });
 
 
