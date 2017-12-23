@@ -11,9 +11,17 @@
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-}); */
+Route::get('/ex', function () {
+    
+    $arr = [
+      "dd" => "55",
+      "ff" => 45
+    ];
+
+    dd(json_encode($arr));
+    
+    //return view('welcome');
+});
 
 
 Route::get('/about-us', function () {
