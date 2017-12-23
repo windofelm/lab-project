@@ -20,7 +20,6 @@ Route::get('/ex', function () {
 
     dd(json_encode($arr));
     
-    //return view('welcome');
 });
 
 
