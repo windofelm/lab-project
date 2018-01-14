@@ -76,7 +76,7 @@ Designed and Development by: Incognito Themes
     color: #fff;
 }
 
-* {
+*:not(.blog-detail *){
     margin: 0;
     padding: 0;
 	min-height:0;

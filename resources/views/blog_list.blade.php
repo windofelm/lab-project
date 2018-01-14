@@ -25,6 +25,7 @@
 
         @if (Session::has('error'))
           <div class="outline-alert alert alert-danger red-color" role="alert">{{Session::get('error')}}</div>
+          <br>
         @endif
 
         @foreach($articles as $article)

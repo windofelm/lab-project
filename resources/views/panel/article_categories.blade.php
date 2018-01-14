@@ -27,7 +27,7 @@
 
 <ul>
 @foreach($categories as $category)
-        <li>{{$category->category_name}} <a href="{{route('delete-category', $category->id)}}" class="btn btn-sm btn-danger" onclick="confirm('Press a button!');">Delete</a></li>
+        <li>{{$category->category_name}}({{$category->slug}}) <a href="{{route('delete-category', $category->id)}}" class="btn btn-sm btn-danger" onclick="confirm('Press a button!');">Delete</a></li>
 @endforeach
 
 @endsection

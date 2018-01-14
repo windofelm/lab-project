@@ -26,7 +26,7 @@
 
 <!--=== Blogs Start ======-->
 <section>
-  <div class="container">
+  <div class="container blog-detail">
     <div class="row">
       <div class="col-md-8">
 
