@@ -223,4 +223,42 @@ class PanelController extends Controller
         return redirect()->route("articles");
     }
 
+    public function categories()
+    {
+        $categories = Category::get();
+
+        return view('panel.article_categories', [
+            'categories' => $categories
+        ]);
+    }
+
+    public function addCategories(Request $request)
+    {
+
+        if(is_null($request->name)){
+            return redirect()->back();
+            //dd("Empty");
+        }
+
+        $category = new Category();
+        $category->category_name = $request->name;
+        $category->slug = Str::slug($request->name);
+        $category->save();
+
+        return redirect()->back();
+    }
+
+    public function deleteCategories($id)
+    {
+        $cat = Category::find($id);
+        if(!is_null($cat)){
+            if($cat->articles()->count()){
+                return redirect()->back();
+            }
+            $cat->delete();
+            return redirect()->back();
+        }
+        return redirect()->back();
+    }
+
 }

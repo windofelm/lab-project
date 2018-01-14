@@ -57,6 +57,9 @@ Route::post('/upload', 'PanelController@upload');
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function () {
     Route::get('/', 'PanelController@index')->name('dashboard');
     Route::get('/articles', 'PanelController@articles')->name('articles');
+    Route::get('/categories', 'PanelController@categories')->name('categories');
+    Route::post('/categories', 'PanelController@addCategories')->name('add-category');
+    Route::get('/categories/{id}', 'PanelController@deleteCategories')->name('delete-category');
     Route::get('/messages', 'MessageController@messages')->name('messages');
     Route::get('/articles/add', 'PanelController@store')->name('article-store');
     Route::get('/articles/{id}', 'PanelController@show')->name("show-article");

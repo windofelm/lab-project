@@ -6,7 +6,7 @@
         <a class="nav-link" href="{{route('messages')}}">Messages</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Categories</a>
+        <a class="nav-link" href="{{route('categories')}}">Categories</a>
     </li>
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
