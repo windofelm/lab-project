@@ -19,3 +19,14 @@
 .article-comment .content {
   color: #3a3a3a;
 }
+.blog-detail table thead {
+  background: #fbfbfb;
+}
+.blog-detail table thead tr th {
+  border: 1px solid;
+  padding: 3px 8px;
+}
+.blog-detail table tbody tr td {
+  border: 1px solid;
+  padding: 3px 8px;
+}
