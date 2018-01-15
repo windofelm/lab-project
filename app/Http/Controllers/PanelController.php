@@ -112,7 +112,7 @@ class PanelController extends Controller
 
         $file = $request->file('upload');
 
-        $imageName = $file->getClientOriginalName().sha1(time()).".".$file->getClientOriginalExtension();
+        $imageName = Str::random(5)."_".sha1(time()).".".$file->getClientOriginalExtension();
 
         $file->move('images/blog/', $imageName);
 
