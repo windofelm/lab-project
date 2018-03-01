@@ -11,6 +11,8 @@
 |
 */
 
+header('Access-Control-Allow-Origin: *');
+
 Route::get('/ex', function () {
     
     $arr = [
@@ -53,6 +55,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/upload', 'PanelController@upload');
+Route::get('/questions', 'FrontController@questions');
 
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function () {
     Route::get('/', 'PanelController@index')->name('dashboard');
