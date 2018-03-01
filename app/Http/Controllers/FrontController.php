@@ -122,34 +122,36 @@ class FrontController extends Controller
     public function questions()
     {
         $questions = [
-            [
-                "soru_metni" => "Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.",
-                "dogru_cevap" => "cevap_2",
-                "secenekler" => [
-                    "cevap_1" => "Cevap 1",
-                    "cevap_2" => "Cevap 2",
-                    "cevap_3" => "Cevap 3",
-                    "cevap_4" => "Cevap 4",
-                ]
-            ],
-            [
-                "soru_metni" => "Lorem Ipsum kullanmanın amacı, sürekli 'buraya metin gelecek, buraya metin gelecek' yazmaya kıyasla daha dengeli bir harf dağılımı sağlayarak okunurluğu artırmasıdır.",
-                "dogru_cevap" => "cevap_4",
-                "secenekler" => [
-                    "cevap_1" => "Cevap 1",
-                    "cevap_2" => "Cevap 2",
-                    "cevap_3" => "Cevap 3",
-                    "cevap_4" => "Cevap 4",
-                ]
-            ],
-            [
-                "soru_metni" => "Lorem Ipsum pasajlarının birçok çeşitlemesi vardır. Ancak bunların büyük bir çoğunluğu mizah katılarak veya rastgele sözcükler eklenerek değiştirilmişlerdir.",
-                "dogru_cevap" => "cevap_1",
-                "secenekler" => [
-                    "cevap_1" => "Cevap 1",
-                    "cevap_2" => "Cevap 2",
-                    "cevap_3" => "Cevap 3",
-                    "cevap_4" => "Cevap 4",
+            "sorular" => [
+                [
+                    "soru_metni" => "Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.",
+                    "dogru_cevap" => "cevap_2",
+                    "secenekler" => [
+                        "cevap_1" => "Cevap 1",
+                        "cevap_2" => "Cevap 2",
+                        "cevap_3" => "Cevap 3",
+                        "cevap_4" => "Cevap 4",
+                    ]
+                ],
+                [
+                    "soru_metni" => "Lorem Ipsum kullanmanın amacı, sürekli 'buraya metin gelecek, buraya metin gelecek' yazmaya kıyasla daha dengeli bir harf dağılımı sağlayarak okunurluğu artırmasıdır.",
+                    "dogru_cevap" => "cevap_4",
+                    "secenekler" => [
+                        "cevap_1" => "Cevap 1",
+                        "cevap_2" => "Cevap 2",
+                        "cevap_3" => "Cevap 3",
+                        "cevap_4" => "Cevap 4",
+                    ]
+                ],
+                [
+                    "soru_metni" => "Lorem Ipsum pasajlarının birçok çeşitlemesi vardır. Ancak bunların büyük bir çoğunluğu mizah katılarak veya rastgele sözcükler eklenerek değiştirilmişlerdir.",
+                    "dogru_cevap" => "cevap_1",
+                    "secenekler" => [
+                        "cevap_1" => "Cevap 1",
+                        "cevap_2" => "Cevap 2",
+                        "cevap_3" => "Cevap 3",
+                        "cevap_4" => "Cevap 4",
+                    ]
                 ]
             ]
         ];
